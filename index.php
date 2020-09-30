@@ -11,6 +11,15 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<nav class="nav" >
+    <img src="https://i.postimg.cc/wTbLw5dz/Webp-net-resizeimage.png" alt="logoKaamelott" width="100px" height="100px">
+    <a class="aboutUs" href=#aboutUs>About us</a>
+    <a class="skill" href=#skill>Skill</a>
+    <a class="productions" href=#productions>Productions</a>
+    <a class="experience" href=#experience>Experiences</a>
+    <a class="formation" href=#formation>Formations</a>
+    <a class="contactUs" href=#contactUs>Contact us</a>
+</nav>
 <main>
     <section>
         <h2>À propos</h2>
