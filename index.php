@@ -12,9 +12,10 @@
 </head>
 <body>
 <main>
+    <?php include 'header.php';?>
     <section>
         <h2>À propos</h2>
-        <img src="https://via.placeholder.com/200x200" alt="Photo Perceval"/>
+        <img src="https://via.placeholder.com/200x200" alt="Photo Perceval" class="profilePicture" />
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur culpa illo illum nesciunt. Aspernatur
             id, nostrum quae sequi temporibus voluptate! Distinctio dolores facilis hic laboriosam modi nulla rem
