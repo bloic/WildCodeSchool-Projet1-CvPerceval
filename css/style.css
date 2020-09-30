@@ -12,6 +12,13 @@
     --p-font: 'Roboto', sans-serif;
 }
 
+html {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--title-font);
     color: var(--title-color);
@@ -52,7 +59,31 @@ p {
     color: var(--text-dark);
 }
 
-.flexcenter {
+.realisationsBgColor {
+    background-color: var(--main-color)
+}
+
+.real-img {
+    background-image: url("http://placekitten.com/100/100");
+    background-clip: padding-box;
+    border: solid black 2px;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 200px;
+    max-height: 200px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.real-img:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://placekitten.com/100/100");
+}
+
+.real-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }

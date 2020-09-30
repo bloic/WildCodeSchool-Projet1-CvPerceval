@@ -12,11 +12,11 @@
 </head>
 <body>
 <main>
-    <section>
+    <section class="text-light realisationsBgColor">
         <?php include 'a_propos.php'; ?>
     </section>
 
-    <section>
+    <section class="text-light realisationsBgColor">
         <?php include 'realisations.php'; ?>
     </section>
 </main>

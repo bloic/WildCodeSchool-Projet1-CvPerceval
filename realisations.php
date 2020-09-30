@@ -1,19 +1,17 @@
 <h2>Réalisations</h2>
-<div class="flexcenter">
-    <div>
-        <h3>Real 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium aut blanditiis corporis doloremque eius
-        eligendi eos itaque iusto odio pariatur quae, quaerat quibusdam quis, quo rem sunt vel voluptatibus?</p>
+<div class="real-flex">
+    <div class="real-img">
+        <h3 class="real-h3">Champion régional de Sloubi</h3>
+        <p class="real-text">Lorem ipsum dolor sit amet</p>
     </div>
 
-    <div>
+    <div class="real-img">
         <h3>Real 2</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium aut blanditiis corporis doloremque eius
-        eligendi eos itaque iusto odio pariatur quae, quaerat quibusdam quis, quo rem sunt vel voluptatibus?</p>
+        <p>Lorem ipsum dolor sit amet</p>
     </div>
 
-    <div>
+    <div class="real-img">
         <h3>Real 3</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium aut blanditiis corporis doloremque eius
-        eligendi eos itaque iusto odio pariatur quae, quaerat quibusdam quis, quo rem sunt vel voluptatibus?</p>
+        <p>Lorem ipsum dolor sit amet</p>
     </div>
+</div>
