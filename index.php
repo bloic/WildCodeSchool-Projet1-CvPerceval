@@ -20,6 +20,8 @@
             id, nostrum quae sequi temporibus voluptate! Distinctio dolores facilis hic laboriosam modi nulla rem
             repudiandae vel.</p>
     </section>
+
+    <?php include 'skills.php';?>
 </main>
 </body>
 </html>
