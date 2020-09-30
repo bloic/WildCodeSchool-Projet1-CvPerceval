@@ -11,6 +11,15 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<main>
+    <section>
+        <h2>À propos</h2>
+        <img src="https://via.placeholder.com/200x200" alt="Photo Perceval"/>
 
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur culpa illo illum nesciunt. Aspernatur
+            id, nostrum quae sequi temporibus voluptate! Distinctio dolores facilis hic laboriosam modi nulla rem
+            repudiandae vel.</p>
+    </section>
+</main>
 </body>
 </html>
