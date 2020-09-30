@@ -67,3 +67,10 @@ p, h2 {
     margin-top : 0;
 }
 
+html {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
