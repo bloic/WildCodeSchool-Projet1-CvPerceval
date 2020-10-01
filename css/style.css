@@ -63,10 +63,9 @@ p {
 
 }
 
-p, h2, ul {
+h2, p  {
     margin-bottom : 0;
     margin-top : 0;
-    list-style-type: none;
 
 }
 
@@ -82,7 +81,7 @@ body {
     width: 100px;
     height: 100px;
     display: inline;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 
 }
 
@@ -97,18 +96,18 @@ body {
     margin-bottom: 20px;
     margin-left: 80px;
     background-color: var(--text-light);
-
-
 }
+
+
 
 .title {
     text-align: center;
 }
 
 .school {
-    display:flex;
-    align-items: center;
-    margin-left: 100px ;
+    margin-left:100px;
+    margin-right: 0;
+
 }
 
 .cadre {
@@ -117,25 +116,60 @@ body {
     margin-bottom:0;
 }
 
-
-.diploma {
+.dateDiploma h3{
     display: inline-block;
-    width: 70%;
+    width: 100%;
     height: 30px;
     background-color: var(--title-color);
     opacity: 90%;
-    border: solid 25px var(--title-color);
+    border: solid 20px var(--title-color);
+    margin-left: 100px;
+    margin-bottom:0;
+
+}
+.dateDiploma p {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    background-color: var(--text-light);
+    opacity: 90%;
+    border: solid 20px var(--text-light);
     margin-left: 100px;
 
 }
 
 .row {
     display: inline-block;
-    background-color: var(--second-color);
-    margin-right: 20px;
-    margin-left: 20px;
-    border-left: solid 2px var(--text-light);
+    border-right: solid 5px var(--text-light);
+
+
+}
+.school h3 {
+    background-color: var(--title-color);
+    margin-bottom:0;
 
 }
 
+.quests p{
+
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    background-color: var(--title-color);
+    opacity: 90%;
+    border: solid 20px var(--title-color);
+    margin-left: 100px;
+}
+
+.quests h3 {
+
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    background-color: var(--text-light);
+    opacity: 90%;
+    border: solid 20px var(--text-light);
+    margin-left: 100px;
+    margin-bottom: 0;
+}
 
