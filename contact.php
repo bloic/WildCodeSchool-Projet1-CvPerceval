@@ -7,7 +7,7 @@
         <p class="text-light">06.21.25.44.54</p>
         <h3 class="title-light icon-home">Adresse</h3>
         <div id="contact-address">
-            <p class="text-light" id="contact-p">Si vous êtes face de la cathédrale, que le soleil est sur la droite
+            <p class="text-light" id="contact-p">Si vous êtes face à la cathédrale, que le soleil est sur la droite
                 au-dessus du nuage en forme de miche de pain, c’est que le nord est derrière vous, allez donc au sud
                 sud-ouest et à 47,3° sur la droite.</p>
         </div>
