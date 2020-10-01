@@ -11,10 +11,18 @@
     --title-color: #f3cb83;
 
     --spacing: 8px;
-    --spacing2: calc(var(--spacing)*2);
-    --spacing3: calc(var(--spacing)*4);
+    --spacing2: calc(var(--spacing) * 2);
+    --spacing3: calc(var(--spacing) * 4);
     --title-font: 'Eagle Lake', cursive;
     --p-font: 'Roboto', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -29,6 +37,7 @@ h1 {
 
 h1::first-letter {
     font-size: 70px;
+    letter-spacing: 0;
 }
 
 h2 {
@@ -43,6 +52,7 @@ h3 {
     font-size: 20px;
     color: var(--text-dark);
 }
+
 p {
     font-family: var(--p-font);
 }
@@ -55,6 +65,7 @@ p {
 .text-dark {
     color: var(--text-dark);
 }
+
 
 /* HEADER */
 
@@ -129,3 +140,204 @@ p {
 
 
 
+/* CONTACT */
+
+
+.title-dark {
+    color: var(--text-dark);
+}
+
+.title-light {
+    color: var(--text-light);
+}
+
+#contact-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+    #contact-flex div {
+        width: 100%;
+    }
+}
+
+#contact-flex div {
+    min-width: 50%;
+}
+
+#contact-flex-left {
+    background-color: var(--main-color);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contact-flex-left h2, p {
+    margin-bottom: 60px;
+}
+
+#contact-social-media {
+    margin-bottom: 50px;
+}
+
+#contact-social-media img {
+    margin: 20px 10px 0;
+    height: 48px;
+    width: 48px;
+}
+
+#contact-address {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#contact-p {
+    overflow-wrap: break-word;
+}
+
+#contact-flex-right {
+    background-color: var(--second-color);
+    text-align: center;
+}
+
+form {
+    padding: 70px 0;
+}
+
+label {
+    display: block;
+    color: var(--text-light);
+    font-family: var(--title-font);
+    margin-bottom: var(--spacing2);
+}
+
+form input, select, textarea {
+    width: 70%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-bottom: solid 2px var(--text-light);
+    height: 40px;
+    margin-bottom: 40px;
+    color: var(--text-light);
+    border-radius: 5px;
+}
+
+input, select, textarea {
+    padding: 0 8px;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: var(--p-font);
+}
+
+#motive {
+    color: var(--text-light);
+}
+
+#textarea {
+    padding-top: var(--spacing);
+    height: 100px;
+}
+
+form button {
+    min-width: 30%;
+    border: solid 2px var(--text-light);
+    background: none;
+    color: var(--text-light);
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+#contact-button {
+    margin: 0 auto;
+}
+
+form button:hover {
+    background-color: var(--main-color);
+    border: solid 2px var(--title-color);
+    color: var(--title-color);
+}
+
+input:focus {
+    border: solid 2px var(--title-color);
+}
+
+.icon-phone::before {
+    content: url(/img/pigeon.png);
+}
+
+.icon-mail::before {
+    content: url(/img/scroll.png);
+}
+
+.icon-home::before {
+    content: url(/img/castle.png);
+}
+
+.icon-phone::before, .icon-mail::before, .icon-home::before {
+    margin-right: 15px;
+    position: relative;
+    top: 5px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    margin: -5px 0 0 0;
+    background-color: var(--text-dark);
+    color: var(--text-light);
+    padding-bottom: var(--spacing);
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+#social-media {
+    display: flex;
+    align-items: center;
+}
+
+#social-media img {
+    height: 24px;
+    width: 24px;
+    margin-left: var(--spacing);
+    position: relative;
+    top: 3px;
+}
+
+footer a {
+    font-family: var(--p-font);
+}
+
+footer a:hover {
+    color: var(--title-color);
+}
+
+footer p {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-div {
+        width: 100%;
+        padding: var(--spacing2) var(--spacing2);
+    }
+
+    footer {
+        padding-bottom: 40px;
+    }
+    #contact-p {
+        padding: 0 20px;
+    }
+}
