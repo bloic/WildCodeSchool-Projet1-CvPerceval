@@ -10,12 +10,18 @@
     <meta name="description" content="Le CV en ligne de Provençal le Gaulois, aspirant chevalier de la Table Ronde."/>
     <meta name="author" content="Les Petits Pédestres"/>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
 
 
-<?php include 'barNav.php'; ?>
-
+<main>
+    <?php include 'barNav.php';?>
+    <?php include 'header.php';?>
+    <?php include 'a_propos.php'; ?>
+    <?php include 'skills.php';?>
+    <?php include 'contact.php'; ?>
+</main>
 
 </body>
 </html>
