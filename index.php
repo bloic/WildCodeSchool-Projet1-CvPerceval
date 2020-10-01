@@ -13,7 +13,10 @@
 </head>
 <body>
 <main>
-
+    <?php include 'header.php';?>
+    <section>
+        <h2>À propos</h2>
+        <img src="https://via.placeholder.com/200x200" alt="Photo Perceval" class="" />
     <?php include 'contact.php'; ?>
 </main>
 </body>

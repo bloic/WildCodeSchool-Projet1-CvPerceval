@@ -1,9 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 :root {
-    --main-color: #1B4555;
+    --main-color: #1b4555;
     --second-color: #4B8C92;
     --text-dark: #0A191F;
     --text-light: #FDF7EC;
-    --title-color: #F3CB83;
+    --title-color: #f3cb83;
 
     --spacing: 8px;
     --spacing2: calc(var(--spacing) * 2);
@@ -27,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 42px;
 }
 
 h1::first-letter {
@@ -60,6 +65,83 @@ p {
 .text-dark {
     color: var(--text-dark);
 }
+
+
+/* HEADER */
+
+.headerGlobal {
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+}
+
+.headerBox {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.makeItRound {
+    height: 60%;
+    width: auto;
+    border-radius: 50%;
+    border: 4px solid var(--title-color) ;
+    margin: 10%;
+}
+
+.visitCard {
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+.socialMediaIcon {
+    width: 24px;
+    height: auto;
+    margin: var(--spacing2) 4px;
+}
+
+.headerJob {
+    font-size: 32px;
+    color: var(--text-light);
+}
+
+.headerContact {
+    color: var(--text-light);
+    font-family: var(--p-font);
+    font-size: 14px;
+    padding-top: var(--spacing);
+    text-decoration: none;
+}
+
+.mailAdress::before {
+    content: url("../img/scroll.png");
+    position: relative;
+    top: 10px;
+
+
+}
+
+.carrierPigeon::before {
+    content: url("../img/pigeon.png");
+    position: relative;
+    top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* CONTACT */
+
 
 .title-dark {
     color: var(--text-dark);
