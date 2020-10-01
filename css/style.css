@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box}
 :root {
     --main-color: #1B4555;
     --second-color: #4B8C92;
@@ -51,3 +55,76 @@ p {
 .text-dark {
     color: var(--text-dark);
 }
+
+
+/*  SKILLS  */
+
+
+.skillsSection {
+    background-color: var(--main-color);
+    padding: 20px 20px 40px;
+}
+
+.skillsMainTitle {
+    text-align: center;
+    margin-top: var(--spacing3);
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+.skillContainerGlobal {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+
+}
+
+.skillContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+
+.skillIconSwords {
+    border: 2px solid var(--title-color  );
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background: url("/img/swords(1).png") no-repeat center;
+}
+
+.skillIconCastle {
+    border: 2px solid var(--title-color  );
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background: url("/img/castle(1).png") no-repeat center;
+}
+
+.skillIconOld {
+    border: 2px solid var(--title-color  );
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background: url("/img/retirement.png") no-repeat center;
+}
+
+.skillsTitle {
+    color: var(--text-light);
+    margin: var(--spacing2);
+    font-size: 24px;
+    padding-top: var(--spacing2);
+
+}
+
+.skillsText {
+    color: var(--text-light);
+    width:80%;
+    margin-bottom: var(--spacing3);
+}
+
