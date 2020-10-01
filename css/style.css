@@ -53,7 +53,7 @@ p {
 }
 
 .aproposBgColor {
-    background-color: var(--main-color);
+    background-color: var(--second-color);
 }
 
 html {
@@ -66,8 +66,6 @@ body {
 .apropos-flex {
     display: flex;
     justify-content: center;
-    min-width: 20%;
-    max-width: 20%;
 }
 
 #apropos-h2 {
@@ -75,6 +73,23 @@ body {
     text-align: center;
 }
 
-#apropos-h2 p {
-    text-align:center;
+.apropos-flex p {
+    max-width: 50%;
+}
+
+.apropos-flex p:before {
+    content: url("../img/left-quote.png");
+    padding-right: 24px;
+}
+
+.apropos-flex p:after {
+    content: url("../img/right-quote.png");
+    padding-left: 24px;
+    float: right;
+}
+
+@media screen and (max-width: 480px) {
+    .apropos-flex p {
+        min-width: 80%;
+    }
 }
