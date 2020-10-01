@@ -625,6 +625,10 @@ h2, p {
     border: solid 20px var(--text-light);
     margin-left: 100px;
     margin-bottom:0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+
 
 }
 .dateDiploma p {
@@ -635,7 +639,8 @@ h2, p {
     opacity: 90%;
     border: solid 20px var(--title-color);
     margin-left: 100px;
-
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .row {
@@ -659,6 +664,8 @@ h2, p {
     opacity: 90%;
     border: solid 20px var(--text-light);
     margin-left: 100px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .quests h3 {
@@ -671,4 +678,6 @@ h2, p {
     border: solid 20px var(--title-color);
     margin-left: 100px;
     margin-bottom: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
