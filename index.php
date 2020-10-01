@@ -17,21 +17,25 @@
 <nav class="nav">
 
     <div class="divLogo">
-        <img class="logoKaamelott" src="https://i.postimg.cc/wTbLw5dz/Webp-net-resizeimage.png" alt="logoKaamelott">
+        <img class="logoKaamelott" src="img/logoKaamelott.png" alt="logoKaamelott">
     </div>
 
-    <div class="menu-items" id="menu">
-        <a class="aboutUs" href=#aboutUs>About us</a>
-        <a class="skill" href=#skill>Skill</a>
-        <a class="productions" href=#productions>Productions</a>
-        <a class="experience" href=#experience>Experiences</a>
-        <a class="formation" href=#formation>Formations</a>
-        <a class="contactUs" href=#contactUs>Contact us</a>
+    <div class="backgroundMenu">
+        <div class="menu-items" id="menu">
+            <div class="bouton"><a href=#aboutUs>About us</a></div>
+            <div class="bouton"><a href=#skill>Skill</a></div>
+            <div class="bouton"><a href=#productions>Productions</a></div>
+            <div class="bouton"><a href=#experience>Experiences</a></div>
+            <div class="bouton"><a href=#formation>Formations</a></div>
+            <div class="bouton"><a href=#contactUs>Contact us</a></div>
+        </div>
     </div>
 
     <div class="iconFennel">
-        <a href="#menu"><img src="https://i.postimg.cc/Wz9nmt4T/Webp-net-resizeimage-1.png" alt="logofennel" width="50px"
-                                          height="50px"></a>
+        <a href="#menu"><img src="img/logoFennel.png" alt="logofennel"
+                             width="50px"
+                             height="50px"></a>
+        <div class="close"><a href=#menu>X</a></div>
     </div>
 
 

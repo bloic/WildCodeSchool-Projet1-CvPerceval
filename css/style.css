@@ -20,6 +20,10 @@ body {
     margin: 0;
 }
 
+.close{
+    display: none;
+}
+
 .nav {
     background-color: var(--main-color);
     position: relative;
@@ -32,6 +36,12 @@ body {
     display: flex;
     justify-content: space-between;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.55);
+}
+
+.backgroundMenu {
+    display: flex;
+    justify-content: center;
+
 }
 
 .logoKaamelott {
@@ -51,7 +61,7 @@ body {
     background: var(--second-color);
     padding: 5px 10px;
     min-width: 100px;
-    border-radius: 8px;
+    border-radius: 5px;
     color: var(--text-light);
     font-size: 14px;
     font-family: var(--title-font);
@@ -62,7 +72,6 @@ body {
 }
 
 .menu-items a:hover {
-    border-top-color: #28597a;
     background: #28597a;
     color: var(--title-color);
 }
@@ -81,9 +90,8 @@ body {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        padding-left: 20px;
         min-width: 1%;
-        min-height: auto;
+        min-height: 1%;
         max-width: 100%;
         max-height: 100%;
     }
@@ -92,11 +100,16 @@ body {
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        padding-right: 20px;
+        margin-right: 5px;
         min-width: 1%;
         min-height: 1%;
         max-width: 100%;
         max-height: 100%;
+    }
+
+    .backgroundMenu {
+        width: 95%;
+        max-height: 80%;
     }
 
     .menu-items:target {
@@ -104,30 +117,36 @@ body {
         flex-direction: column;
         justify-content: center;
         margin-top: 110px;
-        width: 100vw;
+        width: 95vw;
         height: 80vh;
         background-color: var(--main-color);
         border-radius: 30px;
         opacity: 0.8;
         box-shadow: 0 0 30px rgba(0, 0, 0, 0.55);
+        padding-right: 0;
     }
 
-    .menu-items a {
+    .bouton {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5%;
+    }
+
+    .bouton a {
         font-size: 20px;
         font-family: var(--title-font);
         min-width: 50vw;
         text-align: center;
-        margin-bottom: 20px;
+        margin-left: 0;
     }
 
-    .menu-items a:hover {
-        border-top-color: #28597a;
+    .bouton a:hover {
         background: #28597a;
         color: var(--title-color);
     }
 }
 
-
+/*
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--title-font);
     color: var(--title-color);
@@ -171,6 +190,6 @@ p {
 
 
 
-
+*/
 
 
