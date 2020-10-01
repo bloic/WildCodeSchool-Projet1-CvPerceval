@@ -11,6 +11,7 @@
     --title-font: 'Eagle Lake', cursive;
     --p-font: 'Roboto', sans-serif;
 }
+
 /* Barre Navigation */
 html {
     box-sizing: border-box;
@@ -20,7 +21,7 @@ body {
     margin: 0;
 }
 
-.close{
+.close {
     display: none;
 }
 
@@ -146,6 +147,14 @@ body {
     }
 }
 
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--title-font);
     color: var(--title-color);
@@ -187,6 +196,77 @@ p {
     color: var(--text-dark);
 }
 
+.realisations-background-color {
+    background-color: var(--second-color)
+}
+
+.realisations-background-color h2 {
+    text-align: center;
+}
+
+.real-img {
+    background-clip: padding-box;
+    border: solid black 2px;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    margin: 20px;
+}
+
+.sloubi-img {
+    background-image: url("../img/tavern-dices.jpg");
+    background-size: cover;
+}
+
+.unagi-img {
+    background-image: url("../img/unagi.jpg");
+    background-size: cover;
+}
+
+.fishing-img {
+    background-image: url("../img/fishing.jpg");
+    background-size: cover;
+}
+
+.real-flex p {
+    display: none;
+}
+
+.real-img:hover #p-sirop {
+    display: block;
+}
+
+.real-img:hover #p-unagi {
+    display: block;
+}
+
+.real-img:hover #p-fishing {
+    display: block;
+}
+
+.sloubi-img:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/tavern-dices.jpg");
+}
+
+.unagi-img:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/unagi.jpg");
+}
+
+.fishing-img:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/fishing.jpg");
+}
+
+.real-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 /*  ABOUT  */
 
 .apropos-background-color {
@@ -196,6 +276,7 @@ p {
 html {
     box-sizing: border-box;
 }
+
 body {
     margin: 0;
 }
@@ -245,6 +326,7 @@ body {
     margin-bottom: 40px;
     font-size: 40px;
 }
+
 .skillContainerGlobal {
     text-align: center;
     display: flex;
@@ -263,7 +345,7 @@ body {
 }
 
 .skillIconSwords {
-    border: 2px solid var(--title-color  );
+    border: 2px solid var(--title-color);
     border-radius: 50%;
     width: 120px;
     height: 120px;
@@ -271,7 +353,7 @@ body {
 }
 
 .skillIconCastle {
-    border: 2px solid var(--title-color  );
+    border: 2px solid var(--title-color);
     border-radius: 50%;
     width: 120px;
     height: 120px;
@@ -279,7 +361,7 @@ body {
 }
 
 .skillIconOld {
-    border: 2px solid var(--title-color  );
+    border: 2px solid var(--title-color);
     border-radius: 50%;
     width: 120px;
     height: 120px;
@@ -296,7 +378,7 @@ body {
 
 .skillsText {
     color: var(--text-light);
-    width:80%;
+    width: 80%;
     margin-bottom: var(--spacing3);
 }
 
@@ -321,7 +403,7 @@ body {
     height: 60%;
     width: auto;
     border-radius: 50%;
-    border: 4px solid var(--title-color) ;
+    border: 4px solid var(--title-color);
     margin: 10%;
 }
 
@@ -379,6 +461,23 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+    .real-flex p {
+        display: flex;
+        color: var(--text-light);
+    }
+
+    .sloubi-img {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/tavern-dices.jpg");
+    }
+
+    .unagi-img {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/unagi.jpg");
+    }
+
+    .fishing-img {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/fishing.jpg");
+    }
+
     #contact-flex div {
         width: 100%;
     }
@@ -558,6 +657,7 @@ footer p {
     footer {
         padding-bottom: 40px;
     }
+
     #contact-p {
         padding: 0 20px;
     }
@@ -568,26 +668,25 @@ footer p {
 h2, p {
     margin-bottom: 0;
     margin-top: 0;
-
 }
+
 .experience {
-    background-color: var(--second-color);
+    background-color: var(--main-color);
 }
 
 .formation {
-    background-color: var(--main-color);
+    background-color: var(--second-color);
 }
-.containers{
+
+.containers {
     width: 100px;
     height: 100px;
     display: inline;
     margin-bottom: 50px;
-
 }
 
 
-
-.date{
+.date {
     display: inline-block;
     width: 100px;
     height: 100px;
@@ -599,24 +698,22 @@ h2, p {
 }
 
 
-
 .title {
     text-align: center;
 }
 
 .school {
-    margin-left:100px;
+    margin-left: 100px;
     margin-right: 0;
-
 }
 
 .cadre {
     display: inline-block;
     width: 70%;
-    margin-bottom:0;
+    margin-bottom: 0;
 }
 
-.dateDiploma h3{
+.dateDiploma h3 {
     display: inline-block;
     width: 100%;
     height: 30px;
@@ -624,13 +721,11 @@ h2, p {
     opacity: 90%;
     border: solid 20px var(--text-light);
     margin-left: 100px;
-    margin-bottom:0;
+    margin-bottom: 0;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-
-
-
 }
+
 .dateDiploma p {
     display: inline-block;
     width: 100%;
@@ -646,17 +741,14 @@ h2, p {
 .row {
     display: inline-block;
     border-right: solid 5px var(--text-light);
-
-
 }
+
 .school h3 {
     background-color: var(--title-color);
-    margin-bottom:0;
-
+    margin-bottom: 0;
 }
 
-.quests p{
-
+.quests p {
     display: inline-block;
     width: 100%;
     height: 30px;
@@ -669,7 +761,6 @@ h2, p {
 }
 
 .quests h3 {
-
     display: inline-block;
     width: 100%;
     height: 30px;

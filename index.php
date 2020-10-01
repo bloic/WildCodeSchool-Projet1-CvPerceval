@@ -13,18 +13,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap" rel="stylesheet">
 
 </head>
-<body>
 
+<body>
 <main>
-    <?php include 'barNav.php';?>
-    <?php include 'header.php';?>
+    <?php include 'barNav.php'; ?>
+    <?php include 'header.php'; ?>
     <?php include 'a_propos.php'; ?>
-    <?php include 'skills.php';?>
+    <?php include 'skills.php'; ?>
+    <?php include 'realisations.php'; ?>
     <?php include 'Experience.php'; ?>
     <?php include 'Formation.php'; ?>
     <?php include 'contact.php'; ?>
 </main>
-
 
 </body>
 </html>

@@ -4,11 +4,11 @@
     <div class="containers">
         <div class="date">
             <div class="row"></div>
-                <div class="dateQuests">1400ans avant Jscript</div>
+            <div class="dateQuests">1400 ans avant JScript</div>
         </div>
         <div class="cadre">
             <div class="quests"><h3>Université de Karadoc</h3>
-                <p>Quêtes des deux Renards</p></div>
+                <p>Quêtes des deux renards</p></div>
         </div>
     </div>
 
@@ -16,7 +16,7 @@
     <div class="containers">
         <div class="date">
             <div class="row"></div>
-                <div class="dateQuests">1400ans avant Jscript</div>
+            <div class="dateQuests">1400 ans avant JScript</div>
         </div>
         <div class="cadre">
             <div class="quests"><h3>Table Ronde</h3>
