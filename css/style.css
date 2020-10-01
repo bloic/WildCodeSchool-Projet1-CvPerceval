@@ -60,7 +60,7 @@ p {
 }
 
 .realisations-background-color {
-    background-color: var(--main-color)
+    background-color: var(--second-color)
 }
 
 .real-img {
@@ -125,7 +125,7 @@ p {
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     .real-flex p {
         display: flex;
         color: var(--text-light);
