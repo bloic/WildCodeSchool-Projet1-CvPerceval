@@ -15,9 +15,9 @@
 
 
 <nav class="nav">
-    <div>
-        <img class='logo' src="https://i.postimg.cc/wTbLw5dz/Webp-net-resizeimage.png" alt="logoKaamelott" width="100px"
-             height="100px">
+
+    <div class="divLogo">
+        <img class="logoKaamelott" src="https://i.postimg.cc/wTbLw5dz/Webp-net-resizeimage.png" alt="logoKaamelott">
     </div>
 
     <div class="menu-items" id="menu">
@@ -30,7 +30,7 @@
     </div>
 
     <div class="iconFennel">
-        <a href="#menu"><img src="https://i.postimg.cc/5NkDq0Ys/fennel.png" alt="logofennel" width="50px"
+        <a href="#menu"><img src="https://i.postimg.cc/Wz9nmt4T/Webp-net-resizeimage-1.png" alt="logofennel" width="50px"
                                           height="50px"></a>
     </div>
 
