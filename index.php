@@ -9,19 +9,21 @@
     <meta name="description" content="Le CV en ligne de Provençal le Gaulois, aspirant chevalier de la Table Ronde."/>
     <meta name="author" content="Les Petits Pédestres"/>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
 <main>
+    <?php include 'header.php';?>
     <section>
         <h2>À propos</h2>
         <img src="https://via.placeholder.com/200x200" alt="Photo Perceval"/>
-
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur culpa illo illum nesciunt. Aspernatur
             id, nostrum quae sequi temporibus voluptate! Distinctio dolores facilis hic laboriosam modi nulla rem
             repudiandae vel.</p>
     </section>
 
     <?php include 'skills.php';?>
+    <?php include 'contact.php'; ?>
 </main>
 </body>
 </html>
