@@ -12,9 +12,7 @@
 </head>
 <body>
 <main>
-    <section class="text-light realisations-background-color">
-        <?php include 'realisations.php'; ?>
-    </section>
+    <?php include 'realisations.php'; ?>
 </main>
 </body>
 </html>
