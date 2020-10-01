@@ -11,13 +11,139 @@
     --title-font: 'Eagle Lake', cursive;
     --p-font: 'Roboto', sans-serif;
 }
-
+/* Barre Navigation */
 html {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
+}
+
+.close{
+    display: none;
+}
+
+.nav {
+    background-color: var(--main-color);
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.55);
+}
+
+.backgroundMenu {
+    display: flex;
+    justify-content: center;
+
+}
+
+.logoKaamelott {
+    width: 100px;
+    height: 100px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.menu-items a {
+    border-top: 2px solid #0A191F;
+    background: var(--second-color);
+    padding: 5px 10px;
+    min-width: 100px;
+    border-radius: 5px;
+    color: var(--text-light);
+    font-size: 14px;
+    font-family: var(--title-font);
+    text-decoration: none;
+    vertical-align: middle;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.menu-items a:hover {
+    background: #28597a;
+    color: var(--title-color);
+}
+
+.iconFennel {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+
+    .menu-items {
+        display: none;
+    }
+
+    .divLogo {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        min-width: 1%;
+        min-height: 1%;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .iconFennel {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 5px;
+        min-width: 1%;
+        min-height: 1%;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .backgroundMenu {
+        width: 95%;
+        max-height: 80%;
+    }
+
+    .menu-items:target {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 110px;
+        width: 95vw;
+        height: 80vh;
+        background-color: var(--main-color);
+        border-radius: 30px;
+        opacity: 0.8;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.55);
+        padding-right: 0;
+    }
+
+    .bouton {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5%;
+    }
+
+    .bouton a {
+        font-size: 20px;
+        font-family: var(--title-font);
+        min-width: 50vw;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .bouton a:hover {
+        background: #28597a;
+        color: var(--title-color);
+    }
 }
 
 h1, h2, h3, h4, h5, h6 {
