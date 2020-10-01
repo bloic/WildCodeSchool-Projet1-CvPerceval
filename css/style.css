@@ -55,3 +55,26 @@ p {
 .aproposBgColor {
     background-color: var(--main-color);
 }
+
+html {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
+.apropos-flex {
+    display: flex;
+    justify-content: center;
+    min-width: 20%;
+    max-width: 20%;
+}
+
+#apropos-h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+#apropos-h2 p {
+    text-align:center;
+}
