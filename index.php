@@ -12,7 +12,7 @@
 </head>
 <body>
 <main>
-    <section class=".aproposBgColor">
+    <section class="text-light aproposBgColor">
         <?php include 'a_propos.php'; ?>
     </section>
 </main>
