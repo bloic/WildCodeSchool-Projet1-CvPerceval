@@ -6,7 +6,8 @@
     --text-dark: #0A191F;
     --text-light: #FDF7EC;
     --title-color: #f3cb83;
-
+    --shadows-color: rgba(0, 0, 0, 0.55);
+    --shadows-background: rgba(27, 69, 85, 0.55);
     --spacing: 8px;
     --spacing2: calc(var(--spacing) * 2);
     --spacing3: calc(var(--spacing) * 4);
@@ -82,7 +83,7 @@ p {
     z-index: 3;
     display: flex;
     justify-content: space-between;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.55);
+    box-shadow: 0 0 30px var(--shadows-color);
 }
 
 .backgroundMenu {
@@ -103,22 +104,26 @@ p {
 }
 
 .menu-items a {
-    border-top: 2px solid #0A191F;
+
     background: var(--second-color);
     padding: 5px 10px;
     min-width: 100px;
-    border-radius: 5px;
-    color: var(--text-light);
-    font-size: 14px;
     font-family: var(--title-font);
     text-decoration: none;
     vertical-align: middle;
     margin-left: 20px;
     text-align: center;
+    border: solid 1px var(--text-light);
+    background: none;
+    color: var(--text-light);
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
 }
 
 .menu-items a:hover {
-    background: #28597a;
+    background: var(--second-color);
     color: var(--title-color);
 }
 
@@ -156,19 +161,18 @@ p {
     .backgroundMenu {
         width: 95%;
         max-height: 80%;
+
     }
 
     .menu-items:target {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-top: 110px;
         width: 95vw;
         height: 80vh;
-        background-color: var(--main-color);
+        background-color: var(--shadows-background);
         border-radius: 30px;
-        opacity: 0.8;
-        box-shadow: 0 0 30px rgba(0, 0, 0, 0.55);
+        box-shadow: 0 0 30px var(--shadows-color);
         padding-right: 0;
     }
 
@@ -176,6 +180,7 @@ p {
         display: flex;
         justify-content: space-between;
         margin-bottom: 5%;
+        background-color: var(--second-color);
     }
 
     .bouton a {
@@ -184,10 +189,11 @@ p {
         min-width: 50vw;
         text-align: center;
         margin-left: 0;
+
     }
 
-    .bouton a:hover {
-        background: #28597a;
+    .menu-items a:hover {
+        background: var(--main-color);
         color: var(--title-color);
     }
 }

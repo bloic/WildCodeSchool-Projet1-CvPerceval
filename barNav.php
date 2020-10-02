@@ -6,12 +6,12 @@
 
     <div class="backgroundMenu">
         <div class="menu-items" id="menu">
-            <div class="bouton"><a href=#aboutUs>About us</a></div>
-            <div class="bouton"><a href=#skill>Skill</a></div>
-            <div class="bouton"><a href=#productions>Productions</a></div>
-            <div class="bouton"><a href=#experience>Experiences</a></div>
+            <div class="bouton"><a href=#apropos-h2>A propos</a></div>
+            <div class="bouton"><a href=#skills>Compétences</a></div>
+            <div class="bouton"><a href=#realisation>Réalisations</a></div>
+            <div class="bouton"><a href=#experience>Expériences</a></div>
             <div class="bouton"><a href=#formation>Formations</a></div>
-            <div class="bouton"><a href=#contactUs>Contact us</a></div>
+            <div class="bouton"><a href=#contact-flex>Contacter nous</a></div>
         </div>
     </div>
 
