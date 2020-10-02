@@ -1,0 +1,43 @@
+
+.apropos-background-color {
+    background-color: var(--second-color);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.apropos-flex {
+    display: flex;
+    justify-content: center;
+}
+
+#apropos-h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.apropos-flex p {
+    max-width: 50%;
+}
+
+.apropos-flex p:before {
+    content: url("../img/left-quote.png");
+    padding-right: 24px;
+}
+
+.apropos-flex p:after {
+    content: url("../img/right-quote.png");
+    padding-left: 24px;
+    float: right;
+}
+
+@media screen and (max-width: 480px) {
+    .apropos-flex p {
+        min-width: 80%;
+    }
+}

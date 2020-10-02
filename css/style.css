@@ -1,3 +1,14 @@
+
+@import url("navbar.css");
+@import url("header.css");
+@import url("aboutme.css");
+@import url("skills.css");
+@import url("realisations.css");
+@import url("experiences-formation.css");
+@import url("contact.css");
+@import url("footer.css");
+
+
 /* -----------------------------------------------  GENERAL ------------------------------------------------*/
 
 :root {
@@ -66,7 +77,25 @@ p {
 }
 
 
-/* ----------------------------- NAV BAR ----------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------- NAV BAR -----------------------------------------------
 
 .close{
     display: none;
@@ -197,10 +226,10 @@ p {
         color: var(--title-color);
     }
 }
+*/
 
 
-
-/* ----------------------------------------    HEADER -----------------------------------------      */
+/* ----------------------------------------    HEADER -----------------------------------------
 
 
 .headerGlobal {
@@ -288,9 +317,11 @@ p {
     position: relative;
     top: 10px;
 
-}
+}  */
 
-/* ------------------------------------------REALISATIONS ---------------------------------------------*/
+
+/*
+!* ------------------------------------------REALISATIONS ---------------------------------------------*!
 .realisations-background-color {
     background-color: var(--second-color)
 }
@@ -360,10 +391,12 @@ p {
     justify-content: space-around;
     flex-wrap: wrap;
 }
+*/
 
 
 /* --------------------------------------- ABOUT ---------------------------------------------- */
 
+/*
 
 .apropos-background-color {
     background-color: var(--second-color);
@@ -407,9 +440,11 @@ body {
         min-width: 80%;
     }
 }
+*/
 
 /*  -----------------------------   SKILLS    --------------------------------------------------*/
 
+/*
 
 .skillsSection {
     background-color: var(--main-color);
@@ -508,8 +543,10 @@ body {
     width:80%;
     margin-bottom: var(--spacing3);
 }
+*/
+/*
 
-/* --------------------------------------------  CONTACT --------------------------------------   */
+!* --------------------------------------------  CONTACT --------------------------------------   *!
 
 .title-dark {
     color: var(--text-dark);
@@ -525,7 +562,9 @@ body {
     flex-wrap: wrap;
 }
 
+
 @media screen and (max-width: 768px) {
+    !*
     .real-flex p {
         display: flex;
         color: var(--text-light);
@@ -542,6 +581,7 @@ body {
     .fishing-img {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/fishing.jpg");
     }
+*!
 
     #contact-flex div {
         width: 100%;
@@ -671,9 +711,10 @@ input:focus {
     position: relative;
     top: 5px;
 }
+*/
 
 
-/* -------------------------------------  FOOTER ------------------------------------------- */
+/*!* -------------------------------------  FOOTER ------------------------------------------- *!
 
 
 footer {
@@ -730,14 +771,11 @@ footer p {
     #contact-p {
         padding: 0 20px;
     }
-}
+}*/
 
-/* experience and formation */
+/*
+!* experience and formation *!
 
-h2, p {
-    margin-bottom: 0;
-    margin-top: 0;
-}
 
 .experience {
     background-color: var(--main-color);
@@ -842,3 +880,4 @@ h2, p {
     border-bottom-right-radius: var(--spacing);
 }
 
+*/
