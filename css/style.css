@@ -682,7 +682,7 @@ h2, p {
     width: 100px;
     height: 100px;
     display: inline;
-    margin-bottom: 50px;
+    margin-bottom: alc(var(--spacing)*6);
 }
 
 
@@ -692,8 +692,8 @@ h2, p {
     height: 100px;
     border-radius: 50%;
     text-align: center;
-    margin-bottom: 20px;
-    margin-left: 80px;
+    margin-bottom: var(--spacing2);
+    margin-left: calc(var(--spacing)*10);
     background-color: var(--text-light);
 }
 
@@ -703,7 +703,7 @@ h2, p {
 }
 
 .school {
-    margin-left: 100px;
+    margin-left: 1    margin-bottom: calc(var(--spacing)*12);
     margin-right: 0;
 }
 
@@ -720,10 +720,10 @@ h2, p {
     background-color: var(--text-light);
     opacity: 90%;
     border: solid 20px var(--text-light);
-    margin-left: 100px;
+    margin-left: calc(var(--spacing)*12);
     margin-bottom: 0;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: var(--spacing);
+    border-top-right-radius: var(--spacing);
 }
 
 .dateDiploma p {
@@ -733,9 +733,9 @@ h2, p {
     background-color: var(--title-color);
     opacity: 90%;
     border: solid 20px var(--title-color);
-    margin-left: 100px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    margin-left: calc(var(--spacing)*12);
+    border-bottom-left-radius: var(--spacing);
+    border-bottom-right-radius: var(--spacing);
 }
 
 .row {
@@ -747,6 +747,18 @@ h2, p {
     background-color: var(--title-color);
     margin-bottom: 0;
 }
+.quests h3 {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    background-color: var(--title-color);
+    opacity: 90%;
+    border: solid 20px var(--title-color);
+    margin-bottom: 0;
+    margin-left: calc(var(--spacing)*12);
+    border-top-left-radius: var(--spacing);
+    border-top-right-radius: var(--spacing);
+}
 
 .quests p {
     display: inline-block;
@@ -755,20 +767,8 @@ h2, p {
     background-color: var(--text-light);
     opacity: 90%;
     border: solid 20px var(--text-light);
-    margin-left: 100px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    margin-left: calc(var(--spacing)*12);
+    border-bottom-left-radius: var(--spacing);
+    border-bottom-right-radius: var(--spacing);
 }
 
-.quests h3 {
-    display: inline-block;
-    width: 100%;
-    height: 30px;
-    background-color: var(--title-color);
-    opacity: 90%;
-    border: solid 20px var(--title-color);
-    margin-left: 100px;
-    margin-bottom: 0;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
