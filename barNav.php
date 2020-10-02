@@ -15,12 +15,9 @@
         </div>
     </div>
 
-    <div class="iconFennel">
-        <a href="#menu"><img src="img/logoFennel.png" alt="logofennel"
-                             width="50px"
-                             height="50px"></a>
-        <div class="close"><a href=#menu>X</a></div>
+    <div class="boutonMenu">
+        <div class="iconFennel"><a href="#menu"><img src="img/logoFennel.png" alt="logofennel" width="50px" height="50px"></a>
+        <div class="logoSwort"><a href="index.php"><img src="img/swords(1).png" alt="logofennel" width="50px" height="50px"></a>
     </div>
-
 
 </nav>
