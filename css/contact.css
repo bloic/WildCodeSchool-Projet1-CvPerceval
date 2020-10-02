@@ -1,0 +1,148 @@
+
+/* --------------------------------------------  CONTACT --------------------------------------   */
+
+.title-dark {
+    color: var(--text-dark);
+}
+
+.title-light {
+    color: var(--text-light);
+}
+
+#contact-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    #contact-flex div {
+        width: 100%;
+    }
+}
+
+#contact-flex div {
+    min-width: 50%;
+}
+
+#contact-flex-left {
+    background-color: var(--main-color);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contact-flex-left h2, p {
+    margin-bottom: 60px;
+}
+
+#contact-social-media {
+    margin-bottom: 50px;
+}
+
+#contact-social-media img {
+    margin: 20px 10px 0;
+    height: 48px;
+    width: 48px;
+}
+
+#contact-address {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#contact-p {
+    overflow-wrap: break-word;
+}
+
+#contact-flex-right {
+    background-color: var(--second-color);
+    text-align: center;
+}
+
+form {
+    padding: 70px 0;
+}
+
+label {
+    display: block;
+    color: var(--text-light);
+    font-family: var(--title-font);
+    margin-bottom: var(--spacing2);
+}
+
+form input, select, textarea {
+    width: 70%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-bottom: solid 2px var(--text-light);
+    height: 40px;
+    margin-bottom: 40px;
+    color: var(--text-light);
+    border-radius: 5px;
+}
+
+input, select, textarea {
+    padding: 0 8px;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: var(--p-font);
+}
+
+#motive {
+    color: var(--text-light);
+}
+
+#textarea {
+    padding-top: var(--spacing);
+    height: 100px;
+}
+
+form button {
+    min-width: 30%;
+    border: solid 2px var(--text-light);
+    background: none;
+    color: var(--text-light);
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+#contact-button {
+    margin: 0 auto;
+}
+
+form button:hover {
+    background-color: var(--main-color);
+    border: solid 2px var(--title-color);
+    color: var(--title-color);
+}
+
+input:focus {
+    border: solid 2px var(--title-color);
+}
+
+.icon-phone::before {
+    content: url(/img/pigeon.png);
+}
+
+.icon-mail::before {
+    content: url(/img/scroll.png);
+}
+
+.icon-home::before {
+    content: url(/img/castle.png);
+}
+
+.icon-phone::before, .icon-mail::before, .icon-home::before {
+    margin-right: 15px;
+    position: relative;
+    top: 5px;
+}

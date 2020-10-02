@@ -1,0 +1,88 @@
+/* ------------------------------------------REALISATIONS ---------------------------------------------*/
+.realisations-background-color {
+    background-color: var(--second-color)
+}
+
+.realisations-background-color h2 {
+    text-align: center;
+}
+
+.real-img {
+    background-clip: padding-box;
+    border: solid black 2px;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    display: flex;
+    align-items: flex-end;
+    margin: 20px;
+}
+
+.sloubi-img {
+    background-image: url("../img/tavern-dices.jpg");
+    background-size: cover;
+}
+
+.unagi-img {
+    background-image: url("../img/unagi.jpg");
+    background-size: cover;
+}
+
+.fishing-img {
+    background-image: url("../img/fishing.jpg");
+    background-size: cover;
+}
+
+.real-flex p {
+    display: none;
+}
+
+.real-img:hover #p-sirop {
+    display: block;
+}
+
+.real-img:hover #p-unagi {
+    display: block;
+}
+
+.real-img:hover #p-fishing {
+    display: block;
+}
+
+.sloubi-img:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/tavern-dices.jpg");
+}
+
+.unagi-img:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/unagi.jpg");
+}
+
+.fishing-img:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/fishing.jpg");
+}
+
+.real-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 768px) {
+    .real-flex p {
+        display: flex;
+        color: var(--text-light);
+    }
+
+    .sloubi-img {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/tavern-dices.jpg");
+    }
+
+    .unagi-img {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/unagi.jpg");
+    }
+
+    .fishing-img {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/fishing.jpg");
+    }
+}

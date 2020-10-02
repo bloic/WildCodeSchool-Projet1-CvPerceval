@@ -1,0 +1,98 @@
+
+.skillsSection {
+    background-color: var(--main-color);
+    padding: 20px 20px 40px;
+}
+
+.skillsMainTitle {
+    text-align: center;
+    margin-top: var(--spacing3);
+    margin-bottom: 40px;
+}
+
+.skillContainerGlobal {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.skillContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+
+.skillIconSwords {
+    border: 2px solid var(--title-color);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background: url("/img/swords(1).png") no-repeat center;
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.skillIconCastle {
+    border: 2px solid var(--title-color);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background: url("/img/castle(1).png") no-repeat center;
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.skillIconOld {
+    border: 2px solid var(--title-color);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background: url("/img/retirement.png") no-repeat center;
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.skillsText {
+    color: var(--text-light);
+    width: 80%;
+    margin-bottom: var(--spacing3);
+}
+
+.skillIconOld:hover {
+    -webkit-transform: rotate(15deg)scale(1);
+    transform: rotate(15deg)scale(1);
+
+}
+
+.skillIconSwords:hover {
+    -webkit-transform: rotate(15deg) scale(1);
+    transform: rotate(15deg) scale(1);
+}
+
+.skillIconCastle:hover {
+    -webkit-transform: rotate(15deg) scale(1);
+    transform: rotate(15deg) scale(1);
+}
+
+.skillsTitle {
+    color: var(--text-light);
+    margin: var(--spacing2);
+    padding-top: var(--spacing2);
+}
+
+.skillsText {
+    color: var(--text-light);
+    width:80%;
+    margin-bottom: var(--spacing3);
+}
