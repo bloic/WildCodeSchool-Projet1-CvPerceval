@@ -1,3 +1,5 @@
+/* -----------------------------------------------  GENERAL ------------------------------------------------*/
+
 :root {
     --main-color: #1b4555;
     --second-color: #4B8C92;
@@ -12,7 +14,6 @@
     --p-font: 'Roboto', sans-serif;
 }
 
-/* Barre Navigation */
 html {
     box-sizing: border-box;
 }
@@ -21,7 +22,52 @@ body {
     margin: 0;
 }
 
-.close {
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--title-font);
+    color: var(--title-color);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h1::first-letter {
+    font-size: 70px;
+    letter-spacing: 0;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h2::first-letter {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+    color: var(--text-dark);
+}
+
+p {
+    font-family: var(--p-font);
+}
+
+.text-light {
+    font-family: var(--p-font);
+    color: var(--text-light);
+}
+
+.text-dark {
+    color: var(--text-dark);
+}
+
+
+/* ----------------------------- NAV BAR ----------------------------------------------- */
+
+.close{
     display: none;
 }
 
@@ -42,7 +88,6 @@ body {
 .backgroundMenu {
     display: flex;
     justify-content: center;
-
 }
 
 .logoKaamelott {
@@ -147,55 +192,99 @@ body {
     }
 }
 
-html {
-    box-sizing: border-box;
+
+
+/* ----------------------------------------    HEADER -----------------------------------------      */
+
+
+.headerGlobal {
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    align-items: center;
 }
 
-body {
-    margin: 0;
+.headerBox {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--title-font);
-    color: var(--title-color);
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+.makeItRound {
+    height: 60%;
+    width: auto;
+    border-radius: 50%;
+    border: 4px solid var(--title-color);
+    margin: 10%;
 }
 
-h1 {
-    font-size: 42px;
+
+
+.headerGlobal {
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+>>>>>>> skills-animCSS
 }
 
-h1::first-letter {
-    font-size: 70px;
-    letter-spacing: 0;
+.headerBox {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
-h2 {
-    font-size: 24px;
+.makeItRound {
+    height: 60%;
+    width: auto;
+    border-radius: 50%;
+    border: 4px solid var(--title-color) ;
+    margin: 10%;
 }
 
-h2::first-letter {
-    font-size: 40px;
+.visitCard {
+    justify-content: center;
+    align-items: center;
+    display: block;
 }
 
-h3 {
-    font-size: 20px;
-    color: var(--text-dark);
+.socialMediaIcon {
+    width: 24px;
+    height: auto;
+    margin: var(--spacing2) 4px;
 }
 
-p {
-    font-family: var(--p-font);
-}
-
-.text-light {
-    font-family: var(--p-font);
+.headerJob {
+    font-size: 32px;
     color: var(--text-light);
 }
 
-.text-dark {
-    color: var(--text-dark);
+.headerContact {
+    color: var(--text-light);
+    font-family: var(--p-font);
+    font-size: 14px;
+    padding-top: var(--spacing);
+    text-decoration: none;
 }
 
+.mailAdress::before {
+    content: url("../img/scroll.png");
+    position: relative;
+    top: 10px;
+}
+
+.carrierPigeon::before {
+    content: url("../img/pigeon.png");
+    position: relative;
+    top: 10px;
+
+}
+
+/* ------------------------------------------REALISATIONS ---------------------------------------------*/
 .realisations-background-color {
     background-color: var(--second-color)
 }
@@ -213,7 +302,6 @@ p {
     max-height: 200px;
     display: flex;
     align-items: flex-end;
-    margin-bottom: 20px;
     margin: 20px;
 }
 
@@ -267,7 +355,9 @@ p {
     flex-wrap: wrap;
 }
 
-/*  ABOUT  */
+
+/* --------------------------------------- ABOUT ---------------------------------------------- */
+
 
 .apropos-background-color {
     background-color: var(--second-color);
@@ -312,7 +402,7 @@ body {
     }
 }
 
-/*  SKILLS  */
+/*  -----------------------------   SKILLS    --------------------------------------------------*/
 
 
 .skillsSection {
@@ -324,7 +414,6 @@ body {
     text-align: center;
     margin-top: var(--spacing3);
     margin-bottom: 40px;
-    font-size: 40px;
 }
 
 .skillContainerGlobal {
@@ -350,6 +439,10 @@ body {
     width: 120px;
     height: 120px;
     background: url("/img/swords(1).png") no-repeat center;
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .skillIconCastle {
@@ -358,6 +451,10 @@ body {
     width: 120px;
     height: 120px;
     background: url("/img/castle(1).png") no-repeat center;
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .skillIconOld {
@@ -366,14 +463,10 @@ body {
     width: 120px;
     height: 120px;
     background: url("/img/retirement.png") no-repeat center;
-}
-
-.skillsTitle {
-    color: var(--text-light);
-    margin: var(--spacing2);
-    font-size: 24px;
-    padding-top: var(--spacing2);
-
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .skillsText {
@@ -382,69 +475,35 @@ body {
     margin-bottom: var(--spacing3);
 }
 
-/* HEADER */
+.skillIconOld:hover {
+    -webkit-transform: rotate(15deg)scale(1);
+    transform: rotate(15deg)scale(1);
 
-.headerGlobal {
-    background-color: var(--main-color);
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap-reverse;
-    align-items: center;
 }
 
-.headerBox {
-    flex-wrap: wrap;
-    display: flex;
-    align-items: center;
-    text-align: center;
+.skillIconSwords:hover {
+    -webkit-transform: rotate(15deg) scale(1);
+    transform: rotate(15deg) scale(1);
 }
 
-.makeItRound {
-    height: 60%;
-    width: auto;
-    border-radius: 50%;
-    border: 4px solid var(--title-color);
-    margin: 10%;
+.skillIconCastle:hover {
+    -webkit-transform: rotate(15deg) scale(1);
+    transform: rotate(15deg) scale(1);
 }
 
-.visitCard {
-    justify-content: center;
-    align-items: center;
-    display: block;
-}
-
-.socialMediaIcon {
-    width: 24px;
-    height: auto;
-    margin: var(--spacing2) 4px;
-}
-
-.headerJob {
-    font-size: 32px;
+.skillsTitle {
     color: var(--text-light);
+    margin: var(--spacing2);
+    padding-top: var(--spacing2);
 }
 
-.headerContact {
+.skillsText {
     color: var(--text-light);
-    font-family: var(--p-font);
-    font-size: 14px;
-    padding-top: var(--spacing);
-    text-decoration: none;
+    width:80%;
+    margin-bottom: var(--spacing3);
 }
 
-.mailAdress::before {
-    content: url("../img/scroll.png");
-    position: relative;
-    top: 10px;
-}
-
-.carrierPigeon::before {
-    content: url("../img/pigeon.png");
-    position: relative;
-    top: 10px;
-}
-
-/* CONTACT */
+/* --------------------------------------------  CONTACT --------------------------------------   */
 
 .title-dark {
     color: var(--text-dark);
@@ -607,6 +666,10 @@ input:focus {
     top: 5px;
 }
 
+
+/* -------------------------------------  FOOTER ------------------------------------------- */
+
+
 footer {
     display: flex;
     flex-wrap: wrap;
@@ -682,7 +745,7 @@ h2, p {
     width: 100px;
     height: 100px;
     display: inline;
-    margin-bottom: alc(var(--spacing)*6);
+    margin-bottom: calc(var(--spacing)*6);
 }
 
 
@@ -703,7 +766,8 @@ h2, p {
 }
 
 .school {
-    margin-left: 1    margin-bottom: calc(var(--spacing)*12);
+    margin-left: calc(var(--spacing)*10);
+    margin-bottom: calc(var(--spacing)*12);
     margin-right: 0;
 }
 
