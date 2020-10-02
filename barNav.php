@@ -11,7 +11,7 @@
             <div class="bouton"><a href=#realisation>Réalisations</a></div>
             <div class="bouton"><a href=#experience>Expériences</a></div>
             <div class="bouton"><a href=#formation>Formations</a></div>
-            <div class="bouton"><a href=#contact-flex>Contacter nous</a></div>
+            <div class="bouton"><a href=#contact-flex>Contactez-nous</a></div>
         </div>
     </div>
 

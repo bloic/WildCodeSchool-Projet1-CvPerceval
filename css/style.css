@@ -74,7 +74,7 @@ p {
 
 .nav {
     background-color: var(--main-color);
-    position: relative;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
