@@ -1,3 +1,5 @@
+/* -----------------------------------------------  GENERAL ------------------------------------------------*/
+
 :root {
     --main-color: #1b4555;
     --second-color: #4B8C92;
@@ -11,7 +13,7 @@
     --title-font: 'Eagle Lake', cursive;
     --p-font: 'Roboto', sans-serif;
 }
-/* Barre Navigation */
+
 html {
     box-sizing: border-box;
 }
@@ -19,6 +21,50 @@ html {
 body {
     margin: 0;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--title-font);
+    color: var(--title-color);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h1::first-letter {
+    font-size: 70px;
+    letter-spacing: 0;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h2::first-letter {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+    color: var(--text-dark);
+}
+
+p {
+    font-family: var(--p-font);
+}
+
+.text-light {
+    font-family: var(--p-font);
+    color: var(--text-light);
+}
+
+.text-dark {
+    color: var(--text-dark);
+}
+
+
+/* ----------------------------- NAV BAR ----------------------------------------------- */
 
 .close{
     display: none;
@@ -146,161 +192,8 @@ body {
     }
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--title-font);
-    color: var(--title-color);
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
-}
 
-h1 {
-    font-size: 42px;
-}
-
-h1::first-letter {
-    font-size: 70px;
-    letter-spacing: 0;
-}
-
-h2 {
-    font-size: 24px;
-}
-
-h2::first-letter {
-    font-size: 40px;
-}
-
-h3 {
-    font-size: 20px;
-    color: var(--text-dark);
-}
-
-p {
-    font-family: var(--p-font);
-}
-
-.text-light {
-    font-family: var(--p-font);
-    color: var(--text-light);
-}
-
-.text-dark {
-    color: var(--text-dark);
-}
-
-/*  ABOUT  */
-
-.apropos-background-color {
-    background-color: var(--second-color);
-}
-
-html {
-    box-sizing: border-box;
-}
-body {
-    margin: 0;
-}
-
-.apropos-flex {
-    display: flex;
-    justify-content: center;
-}
-
-#apropos-h2 {
-    margin-top: 0;
-    text-align: center;
-}
-
-.apropos-flex p {
-    max-width: 50%;
-}
-
-.apropos-flex p:before {
-    content: url("../img/left-quote.png");
-    padding-right: 24px;
-}
-
-.apropos-flex p:after {
-    content: url("../img/right-quote.png");
-    padding-left: 24px;
-    float: right;
-}
-
-@media screen and (max-width: 480px) {
-    .apropos-flex p {
-        min-width: 80%;
-    }
-}
-
-/*  SKILLS  */
-
-
-.skillsSection {
-    background-color: var(--main-color);
-    padding: 20px 20px 40px;
-}
-
-.skillsMainTitle {
-    text-align: center;
-    margin-top: var(--spacing3);
-    margin-bottom: 40px;
-    font-size: 40px;
-}
-.skillContainerGlobal {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
-
-.skillContainer {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-}
-
-.skillIconSwords {
-    border: 2px solid var(--title-color  );
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    background: url("/img/swords(1).png") no-repeat center;
-}
-
-.skillIconCastle {
-    border: 2px solid var(--title-color  );
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    background: url("/img/castle(1).png") no-repeat center;
-}
-
-.skillIconOld {
-    border: 2px solid var(--title-color  );
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    background: url("/img/retirement.png") no-repeat center;
-}
-
-.skillsTitle {
-    color: var(--text-light);
-    margin: var(--spacing2);
-    font-size: 24px;
-    padding-top: var(--spacing2);
-
-}
-
-.skillsText {
-    color: var(--text-light);
-    width:80%;
-    margin-bottom: var(--spacing3);
-}
-
-/* HEADER */
+/* ----------------------------------------    HEADER -----------------------------------------      */
 
 .headerGlobal {
     background-color: var(--main-color);
@@ -360,9 +253,150 @@ body {
     content: url("../img/pigeon.png");
     position: relative;
     top: 10px;
+
 }
 
-/* CONTACT */
+/* --------------------------------------- ABOUT ---------------------------------------------- */
+
+.apropos-background-color {
+    background-color: var(--second-color);
+}
+
+html {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
+.apropos-flex {
+    display: flex;
+    justify-content: center;
+}
+
+#apropos-h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.apropos-flex p {
+    max-width: 50%;
+}
+
+.apropos-flex p:before {
+    content: url("../img/left-quote.png");
+    padding-right: 24px;
+}
+
+.apropos-flex p:after {
+    content: url("../img/right-quote.png");
+    padding-left: 24px;
+    float: right;
+}
+
+@media screen and (max-width: 480px) {
+    .apropos-flex p {
+        min-width: 80%;
+    }
+}
+
+/*  -----------------------------   SKILLS    --------------------------------------------------*/
+
+
+.skillsSection {
+    background-color: var(--main-color);
+    padding: 20px 20px 40px;
+}
+
+.skillsMainTitle {
+    text-align: center;
+    margin-top: var(--spacing3);
+    margin-bottom: 40px;
+}
+.skillContainerGlobal {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.skillContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+
+.skillIconSwords {
+    border: 2px solid var(--title-color  );
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background: url("/img/swords(1).png") no-repeat center;
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.skillIconCastle {
+    border: 2px solid var(--title-color  );
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background: url("/img/castle(1).png") no-repeat center;
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.skillIconOld {
+    border: 2px solid var(--title-color  );
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background: url("/img/retirement.png") no-repeat center;
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+.skillIconOld:hover {
+    -webkit-transform: rotate(15deg)scale(1);
+    transform: rotate(15deg)scale(1);
+}
+
+.skillIconSwords:hover {
+    -webkit-transform: rotate(15deg) scale(1);
+    transform: rotate(15deg) scale(1);
+}
+
+.skillIconCastle:hover {
+    -webkit-transform: rotate(15deg) scale(1);
+    transform: rotate(15deg) scale(1);
+}
+
+.skillsTitle {
+    color: var(--text-light);
+    margin: var(--spacing2);
+    padding-top: var(--spacing2);
+}
+
+.skillsText {
+    color: var(--text-light);
+    width:80%;
+    margin-bottom: var(--spacing3);
+}
+
+
+
+/* --------------------------------------------  CONTACT --------------------------------------   */
 
 .title-dark {
     color: var(--text-dark);
@@ -507,6 +541,10 @@ input:focus {
     position: relative;
     top: 5px;
 }
+
+
+/* -------------------------------------  FOOTER ------------------------------------------- */
+
 
 footer {
     display: flex;
