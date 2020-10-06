@@ -1,5 +1,5 @@
-<section class="text-light apropos-background-color">
-    <h2 id="apropos-h2">À propos</h2>
+<section class="text-light apropos-background-color" id="apropos-h2">
+    <h2 >À propos</h2>
     <div class="apropos-flex">
         <p>Ancien paysan du Pays de Galles à Caerdydd ayant suivi plusieurs formations pluridisciplinaires dans le
             divertissement (Sloubi, Cul de Chouette (avec les règles à l'Aquitaine), le Sirop), j'aimerais aujourd'hui

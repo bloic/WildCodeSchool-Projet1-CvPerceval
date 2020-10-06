@@ -13,6 +13,7 @@
     --spacing3: calc(var(--spacing) * 4);
     --title-font: 'Eagle Lake', cursive;
     --p-font: 'Roboto', sans-serif;
+    --padding-section: 80px;
 }
 
 html {
@@ -22,6 +23,7 @@ html {
 body {
     margin: 0;
 }
+
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -64,6 +66,7 @@ p {
 .text-dark {
     color: var(--text-dark);
 }
+
 
 
 /* ----------------------------- NAV BAR ----------------------------------------------- */

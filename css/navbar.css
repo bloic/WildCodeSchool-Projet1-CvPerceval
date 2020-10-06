@@ -68,8 +68,9 @@ p {
 
 /* ----------------------------- NAV BAR ----------------------------------------------- */
 
-.logoSwort{
+.logoSwort {
     display: none;
+    position: absolute;
 }
 
 .nav {
@@ -101,9 +102,7 @@ p {
     justify-content: space-around;
     align-items: center;
     padding-right: 20px;
-}
-
-.menu-items a {
+} .menu-items a {
 
     background: var(--second-color);
     padding: 5px 10px;
