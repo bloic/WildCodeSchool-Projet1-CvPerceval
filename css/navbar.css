@@ -15,7 +15,7 @@
     z-index: 3;
     display: flex;
     justify-content: space-between;
-    box-shadow: 0 0 30px var(--shadows-color);
+    box-shadow: 0 0 10px var(--shadows-color);
 }
 
 .backgroundMenu {
@@ -103,7 +103,7 @@
         height: 80vh;
         background-color: var(--shadows-background);
         border-radius: 30px;
-        box-shadow: 0 0 30px var(--shadows-color);
+        box-shadow: 0 0 10px var(--shadows-color);
         padding-right: 0;
     }
 

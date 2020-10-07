@@ -1,7 +1,7 @@
 <nav class="nav">
 
     <div class="divLogo">
-        <img class="logoKaamelott" src="img/logoKaamelott.png" alt="logoKaamelott">
+        <a href="index.php"><img class="logoKaamelott" src="img/logoKaamelott.png" alt="logoKaamelott"></a>
     </div>
 
     <div class="backgroundMenu">
