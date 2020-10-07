@@ -36,7 +36,7 @@
     justify-content: center;
 }
 
-#contact-flex-left h2, p {
+#contact-flex-left h2, #contact-flex-left p {
     margin-bottom: 60px;
 }
 
