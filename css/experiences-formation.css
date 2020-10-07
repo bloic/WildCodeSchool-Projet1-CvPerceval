@@ -3,104 +3,160 @@
 
 .experience {
     background-color: var(--main-color);
+    padding-bottom: var(--padding-section);
 }
 
 .formation {
     background-color: var(--second-color);
+    padding-bottom: var(--padding-section);
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .containers {
-    width: 100px;
-    height: 100px;
-    display: inline;
-    margin-bottom: calc(var(--spacing)*6);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0;
+    margin-top:0;
+
+
 }
 
+.containersDate {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-bottom:0;
+    margin-left: var(--spacing2);
+}
 
 .date {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    border: solid 4px var(--title-color);
     text-align: center;
-    margin-bottom: var(--spacing2);
-    margin-left: calc(var(--spacing)*10);
+    margin-bottom: 0;
     background-color: var(--text-light);
 }
 
 
 .title {
     text-align: center;
+    margin-top:0;
 }
 
-.school {
-    margin-left: calc(var(--spacing)*10);
-    margin-bottom: calc(var(--spacing)*12);
-    margin-right: 0;
-}
 
 .cadre {
-    display: inline-block;
-    width: 70%;
+    display: flex;
+    width: 70vw;
     margin-bottom: 0;
 }
 
+.historyDate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+.dateQuests{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
 .dateDiploma h3 {
-    display: inline-block;
-    width: 100%;
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
     height: 30px;
-    background-color: var(--text-light);
+    background-color: var(--title-color);
     opacity: 90%;
-    border: solid 20px var(--text-light);
-    margin-left: calc(var(--spacing)*12);
+    border: solid 18px var(--title-color);
     margin-bottom: 0;
     border-top-left-radius: var(--spacing);
     border-top-right-radius: var(--spacing);
 }
 
 .dateDiploma p {
-    display: inline-block;
-    width: 100%;
-    height: 30px;
-    background-color: var(--title-color);
-    opacity: 90%;
-    border: solid 20px var(--title-color);
-    margin-left: calc(var(--spacing)*12);
-    border-bottom-left-radius: var(--spacing);
-    border-bottom-right-radius: var(--spacing);
-}
-
-.row {
-    display: inline-block;
-    border-right: solid 5px var(--text-light);
-}
-
-.school h3 {
-    background-color: var(--title-color);
-    margin-bottom: 0;
-}
-.quests h3 {
-    display: inline-block;
-    width: 100%;
-    height: 30px;
-    background-color: var(--title-color);
-    opacity: 90%;
-    border: solid 20px var(--title-color);
-    margin-bottom: 0;
-    margin-left: calc(var(--spacing)*12);
-    border-top-left-radius: var(--spacing);
-    border-top-right-radius: var(--spacing);
-}
-
-.quests p {
-    display: inline-block;
-    width: 100%;
+    display: flex;
+    width: 70vw;
     height: 30px;
     background-color: var(--text-light);
     opacity: 90%;
-    border: solid 20px var(--text-light);
-    margin-left: calc(var(--spacing)*12);
+    border: solid 18px var(--text-light);
     border-bottom-left-radius: var(--spacing);
     border-bottom-right-radius: var(--spacing);
+    margin-top: 0;
 }
 
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: solid 4px var(--text-light);
+    margin-left: var(--spacing2);
+    margin-right: var(--spacing2);
+    opacity: 80%;
+}
+
+.quests h3 {
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    height: 30px;
+    background-color: var(--title-color);
+    opacity: 90%;
+    border: solid 18px var(--title-color);
+    margin-bottom: 0;
+    border-top-left-radius: var(--spacing);
+    border-top-right-radius: var(--spacing);
+
+}
+
+.quests p {
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    height: 30px;
+    background-color: var(--text-light);
+    opacity: 90%;
+    border: solid 18px var(--text-light);
+    margin-top: 0;
+    border-bottom-left-radius: var(--spacing);
+    border-bottom-right-radius: var(--spacing);
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .containers{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 70px;
+        width: 100vw;
+
+    }
+    .row{
+        display:none;
+        margin: 0;
+    }
+    .cadre {
+        margin-left: 0;
+    }
+
+
+}
