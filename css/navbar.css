@@ -1,9 +1,4 @@
 /* ----------------------------- NAV BAR ----------------------------------------------- */
-
-.close{
-    display: none;
-}
-
 .nav {
     background-color: var(--main-color);
     position: sticky;
@@ -36,7 +31,6 @@
 }
 
 .menu-items a {
-
     background: var(--second-color);
     padding: 5px 10px;
     min-width: 100px;
@@ -59,6 +53,9 @@
     color: var(--title-color);
 }
 
+.close{
+    display: none;
+}
 .iconFennel {
     display: none;
 }
@@ -99,8 +96,8 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 95vw;
-        height: 80vh;
+        width: 100vw;
+        height: 100vh;
         background-color: var(--shadows-background);
         border-radius: 30px;
         box-shadow: 0 0 10px var(--shadows-color);
@@ -122,9 +119,20 @@
         margin-left: 0;
     }
 
-    .menu-items a:hover {
-        background: var(--main-color);
-        color: var(--title-color);
+    .close {
+        display: flex;
+        justify-content: center;
+        background-image: url("/../img/sword_icon_bar_nav.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: 0;
+        width: 50px;
+        height: 100px;
+    }
+    .close a {
+        border: none;
+        margin-left: 0;
+        padding-top: 68px;
     }
 }
 
