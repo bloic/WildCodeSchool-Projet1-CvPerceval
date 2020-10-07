@@ -18,7 +18,7 @@
     --text-light: #FDF7EC;
     --title-color: #f3cb83;
     --shadows-color: rgba(0, 0, 0, 0.55);
-    --shadows-background: rgba(27, 69, 85, 0.55);
+    --shadows-background: rgba(27, 69, 85, 0.80);
     --spacing: 8px;
     --spacing2: calc(var(--spacing) * 2);
     --spacing3: calc(var(--spacing) * 4);
