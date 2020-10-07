@@ -7,6 +7,7 @@
 @import url("experiences-formation.css");
 @import url("contact.css");
 @import url("footer.css");
+@import url("chatbot.css");
 
 
 /* -----------------------------------------------  GENERAL ------------------------------------------------*/
@@ -24,7 +25,7 @@
     --spacing3: calc(var(--spacing) * 4);
     --title-font: 'Eagle Lake', cursive;
     --p-font: 'Roboto', sans-serif;
-    --padding-section: 80px;
+    --padding-section: 80px 0;
 }
 
 html {

@@ -28,6 +28,7 @@
 }
 
 #contact-flex-left {
+    padding: var(--padding-section);
     background-color: var(--main-color);
     text-align: center;
     display: flex;
@@ -60,6 +61,7 @@
 }
 
 #contact-flex-right {
+    padding: var(--padding-section);
     background-color: var(--second-color);
     text-align: center;
 }
