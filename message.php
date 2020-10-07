@@ -59,7 +59,7 @@
                         <?= 'Bref, tout ça pour dire, merci ' . htmlentities($data['surname']) . ' de me considérer en tant que tel. J\'ai bien reçu votre demande au sujet de ' . htmlentities($data['motive']) . '.';?>
                         <br>
                         <br>
-                        <?= 'Je vous recontacte après-demain à partir d\aujourd\'hui pour que nous en parlions plus en serre-taille.';?>
+                        <?= 'Je vous recontacte après-demain à partir d\'aujourd\'hui pour que nous en parlions plus en serre-taille.';?>
                     </h3>
                     <a href="index.php"><button>Retour</button></a>
                 </div>
