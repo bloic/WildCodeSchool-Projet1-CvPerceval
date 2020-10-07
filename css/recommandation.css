@@ -1,0 +1,135 @@
+#recommandations {
+    background-color: var(--main-color);
+    background-image: url("../img/texture_header.jpg");
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120% 120%;
+    font-family: var(--p-font);
+    color: var(--text-light);
+    padding-top: var(--padding-section);
+}
+
+.titleRecommandation {
+    text-align: center;
+    margin-top: var(--spacing3);
+    margin-bottom: 40px;
+}
+.container {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+ }
+
+.imageArthur {
+    border-radius: 50%;
+    border: 4px solid var(--title-color);
+    width: 150px;
+    height: 150px;
+    margin-left: var(--spacing);
+
+}
+
+ul img {
+    padding-left: var(--spacing);
+}
+.arthur {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--spacing);
+}
+
+.recommandationArthur {
+    margin-left: var(--spacing);
+    width: 40vw;
+    padding-left: 20px;
+}
+
+.imageKaradoc {
+    border-radius: 50%;
+    border: 4px solid var(--title-color);
+    width: 150px;
+    height: 150px;
+    margin-left: var(--spacing);
+}
+
+.karadoc {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--spacing);
+}
+
+.recommandationKaradoc {
+    margin-left: var(--spacing);
+    width: 40vw;
+    padding-right: 20px;
+
+}
+
+.imageMaitreArme {
+    border-radius: 50%;
+    border: 4px solid var(--title-color);
+    width: 150px;
+    height: 150px;
+    margin-left: var(--spacing);
+}
+
+.maitreArme {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--spacing);
+}
+
+.recommandationMaitreArme {
+    margin-left: var(--spacing);
+    width: 40vw;
+    padding-left: 20px;
+
+}
+
+.imageAngharade {
+    border-radius: 50%;
+    border: 4px solid var(--title-color);
+    width: 150px;
+    height: 150px;
+    margin-left: var(--spacing);
+}
+
+.angharade {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--spacing);
+}
+
+.recommandationAngharade {
+    margin-left: var(--spacing);
+    width: 40vw;
+    padding-right: 20px;
+
+}
+
+.imageLeodagan {
+    border-radius: 50%;
+    border: 4px solid var(--title-color);
+    width: 150px;
+    height: 150px;
+    margin-left: var(--spacing);
+}
+
+.leodagan {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--spacing);
+}
+.recommandationLeodagan {
+    margin-left: var(--spacing);
+    width: 40vw;
+    padding-left: 20px;
+
+}
+

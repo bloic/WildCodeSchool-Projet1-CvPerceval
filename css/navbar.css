@@ -83,7 +83,7 @@
 .iconFennel {
     display: none;
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1500px) {
     .menu-items a {
         background: var(--second-color);
         padding: 5px 10px;
@@ -125,7 +125,7 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1150px) {
     #aboutsUsID {
         display: flex;
     }
