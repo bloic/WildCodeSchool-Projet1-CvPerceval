@@ -75,7 +75,7 @@ label {
     margin-bottom: var(--spacing2);
 }
 
-form input, select, textarea {
+.formInput{
     width: 70%;
     border: none;
     background-color: rgba(0, 0, 0, 0.1);
