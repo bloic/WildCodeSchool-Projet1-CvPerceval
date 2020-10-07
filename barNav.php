@@ -12,6 +12,7 @@
             <div class="bouton"><a href=#experience>Expériences</a></div>
             <div class="bouton"><a href=#formation>Formations</a></div>
             <div class="bouton"><a href=#contact-flex>Contactez-nous</a></div>
+            <div class="print"><a href="pdf/CV_print.pdf"></a></div>
             <div class="close"><a href=#iconfen>Retour</a></div>
         </div>
     </div>
