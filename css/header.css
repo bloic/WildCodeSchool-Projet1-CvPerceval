@@ -43,6 +43,7 @@
 }
 
 .socialMediaIcon {
+    text-decoration: none;
     width: 42px;
     height: auto;
     margin: var(--spacing4) var(--spacing2) 0 var(--spacing2);
