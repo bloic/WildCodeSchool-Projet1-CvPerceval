@@ -22,6 +22,7 @@
     width: 80px;
     height: 80px;
     padding-left: var(--spacing);
+    padding-top: var(--spacing);
 }
 
 .menu-items {
@@ -78,12 +79,62 @@
 .close{
     display: none;
 }
+
 .iconFennel {
     display: none;
 }
+@media screen and (max-width: 1300px) {
+    .menu-items a {
+        background: var(--second-color);
+        padding: 5px 10px;
+        min-width: 50px;
+        font-family: var(--title-font);
+        text-decoration: none;
+        vertical-align: middle;
+        margin-left: 20px;
+        text-align: center;
+        border: solid 1px var(--text-light);
+        background: none;
+        color: var(--text-light);
+        height: 40px;
+        font-size: 12px;
+        font-weight: 700;
+        border-radius: 5px;
+    }
 
-@media screen and (max-width: 800px) {
+    .print{
+        display: flex;
+        background-image: url("/../img/print 40_40.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: 0;
+    }
+    .print a {
+        border: none;
+        background: none;
+        margin-left: 20px;
+        width: 20px;
+    }
 
+    .print:hover {
+        opacity: 0.6;
+    }
+
+    .print a:hover {
+        background: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #aboutsUsID {
+        display: flex;
+    }
+    #formationId {
+        display: flex;
+    }
+    #experienceId {
+        display: flex;
+    }
     .menu-items {
         display: none;
     }
