@@ -1,7 +1,7 @@
 <nav class="nav">
 
     <div class="divLogo">
-        <img class="logoKaamelott" src="img/logoKaamelott.png" alt="logoKaamelott">
+        <a href="index.php"><img class="logoKaamelott" src="img/logoKaamelott.png" alt="logoKaamelott"></a>
     </div>
 
     <div class="backgroundMenu">
@@ -15,9 +15,12 @@
         </div>
     </div>
 
-    <div class="boutonMenu">
-        <div class="iconFennel"><a href="#menu"><img src="img/logoFennel.png" alt="logofennel" width="50px" height="50px"></a>
-        <div class="logoSwort"><a href="index.php"><img src="img/swords(1).png" alt="logofennel" width="50px" height="50px"></a>
+    <div class="iconFennel">
+        <a href="#menu"><img src="img/logoFennel.png" alt="logofennel"
+                             width="50px"
+                             height="50px"></a>
+        <div class="close"><a href=#menu>X</a></div>
     </div>
+
 
 </nav>
