@@ -14,6 +14,10 @@
     padding: var(--padding-section) 0;
 }
 
+#realisations h2 {
+    padding-bottom: var(--spacing3);
+}
+
 .realisations-background-color h2 {
     text-align: center;
 }
@@ -40,7 +44,8 @@
     opacity: 0;
     transition: all 0.5s ease-in-out;
     background-size: 100vw;
-    border-radius: 20px;
+    border-radius: 15px;
+    border: solid var(--title-color) 3px;
 }
 
 .arrow {
