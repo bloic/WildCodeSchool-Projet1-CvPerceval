@@ -51,6 +51,7 @@
                 <div class="messageTitleContainer">
                     <h1 class="messageTitle"> Votre demande</h1>
                 </div>
+
                 <div class="backgroundMessage">
                     <h3 class = "formValidation">
                         <?= 'Je suis souvent victime des colibris, sous-entendu des types qu’oublient toujours tout. Euh, non...' ?>
@@ -61,7 +62,9 @@
                         <br>
                         <?= 'Je vous recontacte après-demain à partir d\'aujourd\'hui pour que nous en parlions plus en serre-taille.';?>
                     </h3>
-                    <a href="index.php"><button>Retour</button></a>
+                    <div>
+                        <a href="index.php"><button class="backButton">Retour</button></a>
+                    </div>
                 </div>
                 <?php
             } else {
@@ -69,9 +72,12 @@
                 <div class="messageTitleContainer">
                     <h1 class="messageTitle"> Formulaire de contact</h1>
                 </div>
+                <div>
+                    <a href="index.php"><button class="backButton">Retour</button></a>
+                </div>
                 <div id="contact-flex-right" class="contact-flex-message">
 
-                    <form action="message.php" method="post">
+                    <form action="message.php" method="post" class="formMessage">
 
                         <label for="surname" class="messageLabel">Nom</label>
                         <input id="surname" name="surname" type="text" placeholder="Ex : Arthur Leroi*" class="messageInput" value="<?= htmlentities($data['surname'])?>">

@@ -81,6 +81,9 @@ p {
     color: var(--text-dark);
 }
 
+a {
+    text-decoration: none;
+}
 
 
 

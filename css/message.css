@@ -1,6 +1,6 @@
 .messageTitle {
     text-align: center;
-    padding: var(--spacing4);
+    padding: var(--spacing3);
 
 }
 
@@ -22,7 +22,7 @@
     background-color: var(--second-color);
     height: 100vh;
     text-align: center;
-    padding: var(--padding-section);
+    padding: var(--spacing2);
 }
 
 .formValidation{
@@ -44,8 +44,10 @@
     margin-top: var(--spacing);
 }
 
-form {
-    padding: 70px 0;
+.formMessage {
+    padding: var(--spacing) 0;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .messageLabel {
@@ -53,8 +55,8 @@ form {
     color: var(--text-light);
     font-family: var(--title-font);
     font-size: 18px;
-    margin-bottom: var(--spacing2);
-    margin-top: var(--spacing3);
+    margin-bottom: var(--spacing);
+    margin-top: var(--spacing2);
 }
 
 .messageInput{
@@ -86,10 +88,12 @@ input, select, textarea {
 }
 
 form button {
-    min-width: 30%;
+    min-width: 100px;
+    max-width: 200px;
     border: solid 2px var(--text-light);
     background: none;
     color: var(--text-light);
+    font-family: var(--title-font);
     height: 40px;
     font-size: 18px;
     font-weight: 700;
@@ -98,4 +102,28 @@ form button {
 
 .contact-button {
     margin: var(--spacing4) auto;
+}
+
+.backButton {
+    background: var(--main-color);
+    padding: auto;
+    margin : var(--spacing2) var(--spacing3);
+    min-width: 100px;
+    max-width: 200px;
+    font-family: var(--title-font);
+    vertical-align: middle;
+    text-align: center;
+    border: solid 2px var(--text-light);
+    background: none;
+    color: var(--text-light);
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    display:block;
+}
+
+.backButton:hover {
+    background: var(--main-color);
+    color: var(--title-color);
 }

@@ -23,7 +23,7 @@
     </div>
 
     <div id="contact-flex-right">
-        <form action="message.php" method="post" novalidate>
+        <form action="message.php" method="post" class="formIndex" novalidate>
             <label for="surname">Nom</label>
             <input id="surname" name="surname" type="text" class="formInput" placeholder="Ex : Arthur Leroi*" required>
             <label for="phone">Pigeon Voyageur</label>
