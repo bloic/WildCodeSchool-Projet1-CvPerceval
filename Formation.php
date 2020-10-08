@@ -5,7 +5,7 @@
     $dateDiplomas = [
             ['historyDate'=>'1400 ANS AVANT JScript',
             'school'=>'Université de Karadoc',
-            'diploma'=>'Doctorat de la botte secrète de Karadoc "c\'est pas faux"',
+            'diploma'=>'Doctorat de la botte secrète de Karadoc est pas faux',
             ],
             ['historyDate'=>'1400 ANS AVANT JScript',
             'school'=>'Université Le Gallois',
