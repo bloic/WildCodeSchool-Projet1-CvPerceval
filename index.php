@@ -11,6 +11,7 @@
     <meta name="author" content="Les Petits Pédestres"/>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap" rel="stylesheet">
+    <script src="script/script.js"></script>
 </head>
 
 <body>
@@ -24,6 +25,7 @@
     <?php include 'Formation.php'; ?>
     <?php include 'Recommandation.php'; ?>
     <?php include 'contact.php'; ?>
+    <?php include 'chatbot.php'; ?>
 </main>
 
 </body>

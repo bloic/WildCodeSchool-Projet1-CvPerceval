@@ -11,7 +11,7 @@
                 au-dessus du nuage en forme de miche de pain, c’est que le nord est derrière vous, allez donc au sud
                 sud-ouest et à 47,3° sur la droite.</p>
         </div>
-        <h3 class="title-light icon-home">Réseaux Sociaux</h3>
+        <h3 class="title-light icon-share">Réseaux Sociaux</h3>
         <div id="contact-social-media">
             <a href="https://www.facebook.com/Perceval-le-Gallois-51306658378" target="_blank"><img
                         src="img/facebook.png" alt="Facebook"></a>
@@ -50,11 +50,18 @@
     <div class="footer-div">
         <div id="social-media">
             <p>Suivez-moi sur les réseaux</p>
-            <a href="https://www.facebook.com/Perceval-le-Gallois-51306658378" target="_blank"><img
-                        src="img/facebook.png" alt="Facebook"></a>
-            <a href="https://www.linkedin.com/in/provencal-le-gaulois-824455160/" target="_blank"><img
-                        src="img/linkedin.png" alt="Linkedin"></a>
-            <a href="https://twitter.com/_Gerceval_" target="_blank"><img src="img/twitter.png" alt="Twitter"></a>
+            <a href="https://www.facebook.com/Perceval-le-Gallois-51306658378" target="_blank">
+                <img src="img/facebook.png"
+                     alt="Facebook">
+            </a>
+            <a href="https://www.linkedin.com/in/provencal-le-gaulois-824455160/" target="_blank">
+                <img src="img/linkedin.png"
+                     alt="Linkedin">
+            </a>
+            <a href="https://twitter.com/_Gerceval_" target="_blank">
+                <img src="img/twitter.png"
+                     alt="Twitter">
+            </a>
         </div>
     </div>
 </footer>
