@@ -44,8 +44,16 @@
     padding-left: 20px;
 }
 
-.recommandationArthur img {
-    padding: 8px;
+.recommandationArthur p:before {
+    content: "\‟" ;
+    color: var(--title-color);
+    font-size: 25pt;
+}
+
+.recommandationArthur p:after {
+    content: "\”" ;
+    color: var(--title-color);
+    font-size: 25pt;
 }
 
 .imageKaradoc {
@@ -70,8 +78,16 @@
     padding-right: 20px;
 }
 
-.recommandationKaradoc img {
-    padding: 8px;
+.recommandationKaradoc p:before {
+    content: "\‟" ;
+    color: var(--title-color);
+    font-size: 25pt;
+}
+
+.recommandationKaradoc p:after {
+    content: "\”" ;
+    color: var(--title-color);
+    font-size: 25pt;
 }
 
 .imageMaitreArme {
@@ -97,8 +113,16 @@
     padding-left: 20px;
 }
 
-.recommandationMaitreArme img {
-    padding: 8px;
+.recommandationMaitreArme p:before {
+    content: "\‟" ;
+    color: var(--title-color);
+    font-size: 25pt;
+}
+
+.recommandationMaitreArme p:after {
+    content: "\”" ;
+    color: var(--title-color);
+    font-size: 25pt;
 }
 
 .imageAngharad {
@@ -124,8 +148,16 @@
     padding-right: 20px;
 }
 
-.recommandationAngharad img {
-    padding: 8px;
+.recommandationAngharad p:before {
+    content: "\‟" ;
+    color: var(--title-color);
+    font-size: 25pt;
+}
+
+.recommandationAngharad p:after {
+    content: "\”" ;
+    color: var(--title-color);
+    font-size: 25pt;
 }
 
 .imageLeodagan {
@@ -149,8 +181,16 @@
     padding-left: 20px;
 }
 
-.recommandationLeodagan img {
-    padding: 8px;
+.recommandationLeodagan p:before {
+    content: "\‟" ;
+    color: var(--title-color);
+    font-size: 25pt;
+}
+
+.recommandationLeodagan p:after {
+    content: "\”" ;
+    color: var(--title-color);
+    font-size: 25pt;
 }
 
 @media screen and (max-width: 1150px) {
