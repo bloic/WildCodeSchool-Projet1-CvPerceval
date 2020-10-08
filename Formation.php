@@ -2,37 +2,43 @@
     <h2 class="title">Formations</h2>
     <?php
 
-    $historyDates = ['1400 ans avant JScript',
-                    '1400 ans avant JScript',
-                    '10 ans après JScript',
-                    '1400 ans avant JScript',
-                    ];
     $dateDiplomas = [
-            'Université de Karadoc' => 'Doctorat de la botte secrète de Karadoc "c\'est pas faux"',
-            'Université Le Gallois' => 'Master de la technique du Rebrousse-Chemin',
-            'Stargate' => 'Testeur de Porte Dimmensionnelles Stargate',
-            'Université Cul de Chouette' => 'Perceval chante le Sloubi',
+            ['historyDate'=>'1400 ANS AVANT JScript',
+            'school'=>'Université de Karadoc',
+            'diploma'=>'Doctorat de la botte secrète de Karadoc est pas faux',
+            ],
+            ['historyDate'=>'1400 ANS AVANT JScript',
+            'school'=>'Université Le Gallois',
+            'diploma'=>'Master de la technique du Rebrousse-Chemin',
+            ],
+            ['historyDate'=>'10 ANS après JScript',
+            'school'=>'Stargate',
+            'diploma'=>'Testeur de Porte Dimmensionnelles Stargate',
+            ],
+            ['historyDate'=>'1400 ANS AVANT JScript',
+             'school'=>'Université Cul de Chouette',
+             'diploma'=>'Perceval chante le Sloubi',
+
+            ]
         ];
 
 
-    ?>
-
+         foreach ($dateDiplomas as $title => $dateDiploma) {
+            ?>
     <div class="containers">
-<?php foreach ($dateDiplomas as $title => $dateDiploma){
-     foreach( $historyDates as $historyDate){ ?>
+
         <div class="containersDate">
             <div class="date">
-                <div class="historyDate"><?= $historyDate;};?></div>
+                <div class="historyDate"><?= $dateDiploma['historyDate'];?></div>
             </div>
         </div>
-        <div class="row"></div>
 
+            <div class="cadre"><?php ?>
 
-        <div class="cadre">
-            <div class="dateDiploma"><h3><?= $title; ?></h3>
-                <p><?= $dateDiploma;};?></p></div>
+            <div class="dateDiploma"><h3><?= $dateDiploma['school']; ?></h3>
+                <p><?= $dateDiploma['diploma'];?></p></div>
         </div>
-    </div>
+    </div><?php };?>
 
 
 </section>
