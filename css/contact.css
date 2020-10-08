@@ -14,7 +14,6 @@
     flex-wrap: wrap;
 }
 
-
 @media screen and (max-width: 768px) {
 
     #contact-flex div {
@@ -26,27 +25,17 @@
     min-width: 50%;
 }
 
+#contact-flex-left h3 {
+    margin-bottom: 0;
+}
+
 #contact-flex-left {
-    padding: var(--padding-section) 0;
+    padding: var(--padding-section) 0 0;
     background-color: var(--main-color);
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-#contact-flex-left h2, #contact-flex-left p {
-    margin-bottom: 60px;
-}
-
-#contact-social-media {
-    margin-bottom: 50px;
-}
-
-#contact-social-media img {
-    margin: 20px 10px 0;
-    height: 48px;
-    width: 48px;
 }
 
 #contact-address {
@@ -57,16 +46,17 @@
 
 #contact-p {
     overflow-wrap: break-word;
+    margin-bottom: 20px;
 }
 
 #contact-flex-right {
-    padding: var(--padding-section) 0;
+    padding: var(--padding-section) 0 0;
     background-color: var(--second-color);
     text-align: center;
 }
 
 form {
-    padding: 70px 0;
+    padding: 70px 0 0;
 }
 
 label {
@@ -146,14 +136,13 @@ input:focus {
     content: url(/img/share.png);
 }
 
-.icon-phone::before, .icon-mail::before, .icon-home::before, .icon-share::before {
+.icon-phone::before, .icon-mail::before, .icon-home::before {
     margin-right: 15px;
     position: relative;
     top: 5px;
 }
 
-#contact-social-media > a > img:hover {
-    -webkit-transform: scale(1.15);
-    transform: scale(1.15);
-    animation-timing-function: ease-in-out;
+#map {
+    padding-top: var(--padding-section);
+    background-color: var(--main-color);
 }

@@ -6,7 +6,7 @@ $(document).ready(function () {
         const chatbox = $("#chatbox");
         const typing = $("#typing");
         let percevalOutput = "c'est pas faux";
-        if (phrase.includes("disponibilité") || phrase.includes("disponibilités")) {
+        if (phrase.includes("dispo")) {
             percevalOutput = "C'est pas quand y'a des infiltrations ça ?";
         }
         if (typeof phrase === "string" && phrase !== "") {

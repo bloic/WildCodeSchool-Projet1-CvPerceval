@@ -2,6 +2,10 @@ aside h2 {
     margin: 0;
 }
 
+#contact-flex p, #contact-flex h2 {
+    margin-bottom: var(--spacing2);
+}
+
 .chatbox-top h2 {
     text-align: right;
     padding-right: var(--spacing);
@@ -54,7 +58,7 @@ aside h2 {
     position: fixed;
     bottom: var(--spacing3);
     right: var(--spacing3);
-    z-index: 3;
+    z-index: 10;
 }
 
 #chatbot {
@@ -103,7 +107,7 @@ aside h2 {
 }
 .user-message span {
     float: left;
-    clear: right;
+    clear: both;
     max-width: 300px;
     background-color: var(--main-color);
     color: var(--text-light);
@@ -175,8 +179,10 @@ aside h2 {
 }
 
 #waiting {
+    float: left;
     font-style: italic;
     font-family: var(--p-font);
+    clear: both;
 }
 
 #online {
