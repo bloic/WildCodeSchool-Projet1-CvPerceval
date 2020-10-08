@@ -12,6 +12,7 @@
 
 #realisations {
     padding: var(--padding-section) 0;
+    padding-bottom: 160px;
 }
 
 #realisations h2 {
