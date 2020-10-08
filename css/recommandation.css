@@ -7,7 +7,8 @@
     background-size: 120% 120%;
     font-family: var(--p-font);
     color: var(--text-light);
-    padding-top: var(--padding-section);
+    padding: var(--padding-section) 0;
+    line-height: var(--line-spacing);
 }
 
 .titleRecommandation {
@@ -30,9 +31,6 @@
 
 }
 
-ul img {
-    padding-left: var(--spacing);
-}
 .arthur {
     display: inline-flex;
     justify-content: center;
@@ -42,8 +40,11 @@ ul img {
 
 .recommandationArthur {
     margin-left: var(--spacing);
-    width: 40vw;
+    width: 60vw;
     padding-left: 20px;
+}
+.recommandationArthur img {
+    padding: 8px;
 }
 
 .imageKaradoc {
@@ -63,9 +64,12 @@ ul img {
 
 .recommandationKaradoc {
     margin-left: var(--spacing);
-    width: 40vw;
+    width: 60vw;
     padding-right: 20px;
+}
 
+.recommandationKaradoc img {
+    padding: 8px;
 }
 
 .imageMaitreArme {
@@ -85,12 +89,15 @@ ul img {
 
 .recommandationMaitreArme {
     margin-left: var(--spacing);
-    width: 40vw;
+    width: 60vw;
     padding-left: 20px;
-
 }
 
-.imageAngharade {
+.recommandationMaitreArme img {
+    padding: 8px;
+}
+
+.imageAngharad {
     border-radius: 50%;
     border: 4px solid var(--title-color);
     width: 150px;
@@ -98,18 +105,21 @@ ul img {
     margin-left: var(--spacing);
 }
 
-.angharade {
+.angharad {
     display: inline-flex;
     justify-content: center;
     align-items: center;
     padding: var(--spacing);
 }
 
-.recommandationAngharade {
+.recommandationAngharad {
     margin-left: var(--spacing);
-    width: 40vw;
+    width: 60vw;
     padding-right: 20px;
+}
 
+.recommandationAngharad img {
+    padding: 8px;
 }
 
 .imageLeodagan {
@@ -126,10 +136,74 @@ ul img {
     align-items: center;
     padding: var(--spacing);
 }
+
 .recommandationLeodagan {
     margin-left: var(--spacing);
-    width: 40vw;
+    width: 60vw;
     padding-left: 20px;
+}
 
+.recommandationLeodagan img {
+    padding: 8px;
+}
+
+@media screen and (max-width: 1150px) {
+    h4 {
+        margin-top: 0;
+    }
+
+    .arthur {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: var(--spacing3);
+    }
+
+    .recommandationArthur {
+        width: auto;
+        padding: var(--spacing);
+    }
+
+    .karadoc {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        padding-bottom: var(--spacing3);
+    }
+
+    .recommandationKaradoc {
+        width: auto;
+        padding: var(--spacing);
+    }
+
+    .maitreArme {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: var(--spacing3);
+    }
+
+    .recommandationMaitreArme {
+        width: auto;
+        padding: var(--spacing);
+    }
+
+    .angharad {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        padding-bottom: var(--spacing3);
+    }
+
+    .recommandationAngharad {
+        width: auto;
+        padding: var(--spacing);
+    }
+
+    .leodagan {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: var(--spacing3);
+    }
+    .recommandationLeodagan {
+        width: auto;
+        padding: var(--spacing);
+    }
 }
 

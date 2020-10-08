@@ -9,10 +9,10 @@
             <div class="bouton"><a href=#apropos>A propos</a></div>
             <div class="bouton"><a href=#skills>Compétences</a></div>
             <div class="bouton"><a href=#realisations>Réalisations</a></div>
-            <div class="bouton"><a href=#experience>Expériences</a></div>
-            <div class="bouton"><a href=#formation>Formations</a></div>
+            <div class="bouton" id="experienceId"><a href=#experience>Expériences</a></div>
+            <div class="bouton" id="formationId"><a href=#formation>Formations</a></div>
             <div class="bouton"><a href=#recommandations>Recommandations</a></div>
-            <div class="bouton"><a href=#contact-flex>Contactez-nous</a></div>
+            <div class="bouton"><a href=#contact-flex>Contact</a></div>
             <div class="print"><a href="pdf/CV_print.pdf"></a></div>
             <div class="close"><a href=#iconfen>Retour</a></div>
         </div>

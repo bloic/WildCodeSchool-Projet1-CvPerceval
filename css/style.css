@@ -26,7 +26,9 @@
     --spacing4: calc(var(--spacing) * 8); ;
     --title-font: 'Eagle Lake', cursive;
     --p-font: 'Roboto', sans-serif;
+    --font-size: 16pt;
     --padding-section: 80px;
+    --line-spacing: 150%;
 }
 
 html {
@@ -68,8 +70,14 @@ h3 {
     color: var(--text-dark);
 }
 
+h4 {
+    font-size: 18px;
+    color: var(--text-light);
+}
+
 p {
     font-family: var(--p-font);
+    font-size: var(--font-size);
 }
 
 .text-light {
