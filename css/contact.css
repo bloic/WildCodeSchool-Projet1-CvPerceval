@@ -1,4 +1,3 @@
-
 /* --------------------------------------------  CONTACT --------------------------------------   */
 
 .title-dark {
@@ -28,6 +27,7 @@
 }
 
 #contact-flex-left {
+    padding: var(--padding-section) 0;
     background-color: var(--main-color);
     text-align: center;
     display: flex;
@@ -60,11 +60,12 @@
 }
 
 #contact-flex-right {
+    padding: var(--padding-section) 0;
     background-color: var(--second-color);
     text-align: center;
 }
 
-form {
+.formIndex {
     padding: 70px 0;
 }
 
@@ -75,7 +76,7 @@ label {
     margin-bottom: var(--spacing2);
 }
 
-form input, select, textarea {
+.formInput{
     width: 70%;
     border: none;
     background-color: rgba(0, 0, 0, 0.1);
@@ -141,8 +142,18 @@ input:focus {
     content: url(/img/castle.png);
 }
 
-.icon-phone::before, .icon-mail::before, .icon-home::before {
+.icon-share::before {
+    content: url(/img/share.png);
+}
+
+.icon-phone::before, .icon-mail::before, .icon-home::before, .icon-share::before {
     margin-right: 15px;
     position: relative;
     top: 5px;
+}
+
+#contact-social-media > a > img:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    animation-timing-function: ease-in-out;
 }

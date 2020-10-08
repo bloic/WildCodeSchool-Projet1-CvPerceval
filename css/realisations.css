@@ -3,86 +3,108 @@
     background-color: var(--second-color)
 }
 
+.carousel-item p {
+    font-family: var(--title-font);
+    color: var(--text-light);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+}
+
+#realisations {
+    padding: var(--padding-section) 0;
+}
+
+#realisations h2 {
+    padding-bottom: var(--spacing3);
+}
+
 .realisations-background-color h2 {
     text-align: center;
 }
 
-.real-img {
-    background-clip: padding-box;
-    border: solid black 2px;
-    min-width: 200px;
-    min-height: 200px;
-    max-width: 200px;
-    max-height: 200px;
-    display: flex;
-    align-items: flex-end;
-    margin: 20px;
+#carousel-area {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.sloubi-img {
-    background-image: url("../img/tavern-dices.jpg");
-    background-size: cover;
+#carousel-area::after {
+    content: "";
+    padding-top: 37.5%;
+    display: block;
 }
 
-.unagi-img {
-    background-image: url("../img/unagi.jpg");
-    background-size: cover;
+.carousel-item {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 25px 50px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    background-size: 100vw;
+    border-radius: 15px;
+    border: solid var(--title-color) 3px;
 }
 
-.fishing-img {
-    background-image: url("../img/fishing.jpg");
-    background-size: cover;
+.arrow {
+    border: solid var(--title-color);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 16px;
 }
 
-.real-flex p {
+.arrow-prev {
+    transform: translateY(-50%) rotate(135deg);
+    position: absolute;
+    top: 50%;
+    left: 20px;
+}
+
+.arrow-next {
+    transform: translateY(-50%) rotate(-45deg);
+    position: absolute;
+    top: 50%;
+    right: 20px;
+}
+
+[id^="item"] {
     display: none;
 }
 
-.real-img:hover #p-sirop {
-    display: block;
+.item-sirop {
+    z-index: 3;
+    opacity: 1;
+    background: url("../img/sirop.jpg");
+    background-size: cover;
 }
 
-.real-img:hover #p-unagi {
-    display: block;
+.item-unagi {
+    background: url("../img/unagi.jpeg");
+    background-size: cover;
 }
 
-.real-img:hover #p-fishing {
-    display: block;
+.item-fishing {
+    background: url("../img/fishing.jpg");
+    background-size: cover;
 }
 
-.sloubi-img:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/tavern-dices.jpg");
+*:target ~ .item-sirop {
+    opacity: 0;
 }
 
-.unagi-img:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/unagi.jpg");
+#item-sirop:target ~ .item-sirop {
+    opacity: 1;
 }
 
-.fishing-img:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/fishing.jpg");
+#item-unagi:target ~ .item-unagi, #item-fishing:target ~ .item-fishing {
+    z-index: 4;
+    opacity: 1;
 }
 
-.real-flex {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-@media screen and (max-width: 768px) {
-    .real-flex p {
-        display: flex;
-        color: var(--text-light);
-    }
-
-    .sloubi-img {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/tavern-dices.jpg");
-    }
-
-    .unagi-img {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/unagi.jpg");
-    }
-
-    .fishing-img {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/fishing.jpg");
+@media screen and (max-width: 800px) {
+    .carousel-item p {
+        font-size: 12px;
     }
 }

@@ -6,8 +6,10 @@
 @import url("realisations.css");
 @import url("experiences-formation.css");
 @import url("contact.css");
+@import url("message.css");
 @import url("footer.css");
 @import url("recommandation.css");
+@import url("chatbot.css");
 
 
 /* -----------------------------------------------  GENERAL ------------------------------------------------*/
@@ -89,6 +91,9 @@ p {
     color: var(--text-dark);
 }
 
+a {
+    text-decoration: none;
+}
 
 
 
