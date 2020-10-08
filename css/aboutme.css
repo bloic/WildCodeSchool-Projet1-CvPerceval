@@ -19,15 +19,30 @@ body {
 #apropos {
     margin-top: 0;
     text-align: center;
-    padding: var(--padding-section);
+    padding: var(--padding-section) 10px;
 }
 
 .apropos-flex p {
-    max-width: 50%;
-    line-height: 250%;
+    line-height: 200%;
 }
 
+
 .apropos-flex p:before {
+    content: "“";
+    color: var(--title-color);
+    font-size: 100pt;
+    vertical-align: bottom;
+}
+
+.apropos-flex p:after {
+    content: "”";
+    color: var(--title-color);
+    font-size: 100pt;
+    vertical-align: -250%;
+    padding-left: 10px;
+}
+
+/*.apropos-flex p:before {
     content: url("../img/left-quote.png");
     padding-right: 24px;
 }
@@ -36,11 +51,20 @@ body {
     content: url("../img/right-quote.png");
     padding-left: 24px;
     float: right;
-}
+}*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .apropos-flex p {
-        min-width: 80%;
+        font-size: 12pt;
         line-height: 150%;
+
+    }
+
+    .apropos-flex p:before {
+        vertical-align: -200%;
+    }
+
+    .apropos-flex p:after {
+        vertical-align: -400%;
     }
 }
