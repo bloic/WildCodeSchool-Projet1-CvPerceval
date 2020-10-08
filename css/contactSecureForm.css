@@ -1,0 +1,292 @@
+/* --------------------------------------------  CONTACT ----------------------------------------------------------   */
+
+.title-dark {
+    color: var(--text-dark);
+}
+
+.title-light {
+    color: var(--text-light);
+}
+
+#contact-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+
+    #contact-flex div {
+        width: 100%;
+    }
+}
+
+#contact-flex div {
+    min-width: 50%;
+}
+
+#contact-flex-left h3 {
+    margin-bottom: 0;
+}
+
+#contact-flex-left {
+    padding: var(--padding-section) 0 0;
+    background-color: var(--main-color);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contact-address {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#contact-p {
+    overflow-wrap: break-word;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    border: solid 2px var(--title-color);
+}
+
+.icon-phone::before {
+    content: url(/img/pigeon.png);
+}
+
+.icon-mail::before {
+    content: url(/img/scroll.png);
+}
+
+.icon-home::before {
+    content: url(/img/castle.png);
+}
+
+.icon-share::before {
+    content: url(/img/share.png);
+}
+
+.icon-phone::before, .icon-mail::before, .icon-home::before {
+    margin-right: 15px;
+    position: relative;
+    top: 5px;
+}
+
+#map {
+    padding-top: var(--padding-section);
+    background-color: var(--main-color);
+}
+
+
+/* --------------------------------------------  FORMULAIRE -----------------------------------------------------   */
+
+
+#contact-flex-right {
+    padding: var(--padding-section) 0 0;
+    background-color: var(--second-color);
+    text-align: center;
+}
+
+/*.formIndex {
+    padding: 70px 0;
+}*/
+
+label {
+    display: block;
+    color: var(--text-light);
+    font-family: var(--title-font);
+    margin-bottom: var(--spacing2);
+}
+
+/*.formInput{
+    width: 70%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-bottom: solid 2px var(--text-light);
+    height: 40px;
+    margin-bottom: 40px;
+    color: var(--text-light);
+    border-radius: 5px;
+}*/
+
+input, select, textarea {
+    padding: 0 8px;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: var(--p-font);
+}
+
+#motive {
+    color: var(--text-light);
+}
+
+#textarea {
+    padding-top: var(--spacing);
+    height: 100px;
+}
+
+form button {
+    min-width: 30%;
+    border: solid 2px var(--text-light);
+    background: none;
+    color: var(--text-light);
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+#contact-button {
+    margin: 0 auto;
+}
+
+form button:hover {
+    background-color: var(--main-color);
+    border: solid 2px var(--title-color);
+    color: var(--title-color);
+}
+
+
+
+/*.messageTitle {
+    text-align: center;
+    padding: var(--spacing3);
+
+}*/
+
+/*.messageTitleContainer{
+    background-color: var(--main-color);
+    background-image: url("../img/texture_header.jpg");
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120% 120%;
+    border-bottom: var(--title-color) 3px solid;
+}*/
+
+/*
+.containerMessage {
+    background-color: var(--second-color);
+}
+*/
+/*
+
+.backgroundMessage {
+    background-color: var(--second-color);
+    height: 100vh;
+    text-align: center;
+    padding: var(--spacing2);
+}
+*/
+
+.formValidation{
+    color: var(--text-light);
+    font-size: 16pt;
+    font-family: var(--p-font);
+    padding: var(--spacing2);
+    text-wrap: normal;
+    text-align: center;
+}
+
+.contact-flex-message{
+    width: 80%;
+    margin: auto;
+    max-width: 380px;
+}
+
+.errorMessage {
+    color: #a50021;
+    font-family: var(--p-font);
+    display: block;
+    font-weight: bold;
+    margin-top: var(--spacing);
+}
+
+.formMessage {
+    padding: var(--spacing) 0;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.messageLabel {
+    display: block;
+    color: var(--text-light);
+    font-family: var(--title-font);
+    font-size: 18px;
+    margin-bottom: var(--spacing);
+    margin-top: var(--spacing2);
+}
+
+.messageInput{
+    width: 70%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-bottom: solid 2px var(--text-light);
+    height: 40px;
+    color: var(--text-light);
+    border-radius: 5px;
+}
+
+input, select, textarea {
+    padding: 0 8px;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: var(--p-font);
+}
+
+#motive {
+    color: var(--text-light);
+}
+
+#textarea {
+    padding-top: var(--spacing);
+    height: 100px;
+}
+
+form button {
+    min-width: 100px;
+    max-width: 200px;
+    border: solid 2px var(--text-light);
+    background: none;
+    color: var(--text-light);
+    font-family: var(--title-font);
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.contact-button {
+    margin: var(--spacing4) auto;
+}
+
+.backButton {
+    background: var(--main-color);
+    padding: auto;
+    margin : var(--spacing2) var(--spacing3);
+    min-width: 100px;
+    max-width: 200px;
+    font-family: var(--title-font);
+    vertical-align: middle;
+    text-align: center;
+    border: solid 2px var(--text-light);
+    background: none;
+    color: var(--text-light);
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    display:block;
+}
+
+.backButton:hover {
+    background: var(--main-color);
+    color: var(--title-color);
+}

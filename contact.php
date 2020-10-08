@@ -18,24 +18,101 @@
         </div>
     </div>
 
+
     <div id="contact-flex-right">
-        <form action="message.php" method="post" class="formIndex" novalidate>
-            <label for="surname">Nom</label>
-            <input id="surname" name="surname" type="text" class="formInput" placeholder="Arthur Leroi*" required>
-            <label for="phone">Pigeon Voyageur</label>
-            <input id="phone" name="phone" type="tel" class="formInput" placeholder="06 69 69 69 69*" required>
-            <label for="email">E-mail</label>
-            <input id="email" name="email" type="email" class="formInput" placeholder="recruteur2chevalier@hotmail.fr*" required>
-            <label for="motive">Objet</label>
-            <input id="motive" name="motive" type="text" class="formInput" placeholder="J'ai une quête à vous proposer*" required>
-            <label for="textarea">Message</label>
-            <textarea name="message" id="textarea" class="formInput" placeholder="Bonjour, j'ai besoin d'un grand chevalier..." required></textarea>
-            <div id="contact-button">
+
+        <?php
+        if(!empty($_GET['message']) && $_GET['message'] === 'success')  {
+            ?>
+            <div class="contact-flex-message">
+                <p class = "formValidation">
+                <?='J\'ai bien reçu votre demande. Merci de me considérer en tant que tel. Je vous recontacte après-demain à partir d\'aujourd\'hui pour que nous en discutions plus en serre-taille.';?></p>
+            </div>
+            <?php
+        }
+        ?>
+
+        <form action="#contact-flex" method="post" class="formMessage" novalidate>
+
+            <label for="surname" class="messageLabel">Nom</label>
+            <input id="surname"
+                   name="surname"
+                   type="text"
+                   placeholder="Ex : Arthur Leroi*"
+                   class="messageInput"
+                   value="<?= $_SERVER['REQUEST_METHOD'] === 'POST' ? htmlentities($data['surname']) : '' ;?>"
+            >
+            <?php
+            if($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($errors['surname1'])) {
+                ?><span class="errorMessage"><?= $errors['surname1'];?></span><?php
+            }
+            ?>
+
+
+            <label for="phone" class="messageLabel">Pigeon Voyageur</label>
+            <input id="phone"
+                   name="phone"
+                   type="tel" placeholder="Ex : 06 69 69 69 69*"
+                   class="messageInput"
+                   value="<?= $_SERVER['REQUEST_METHOD'] === 'POST' ? htmlentities($data['phone']) : '' ;?>"
+            >
+            <?php
+            if($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($errors['phone1'])) {
+                ?><span class="errorMessage"><?= $errors['phone1'];?></span><?php
+            }
+            ?>
+
+
+            <label for="email" class="messageLabel">E-mail</label>
+            <input id="email"
+                   name="email"
+                   type="email"
+                   placeholder="Ex : recruteur2chevalier@hotmail.fr*"
+                   class="messageInput"
+                   value="<?= $_SERVER['REQUEST_METHOD'] === 'POST' ? htmlentities($data['email']) : '' ;?>"
+            >
+            <?php
+            if($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($errors['email1'])) {
+                ?><span class="errorMessage"><?= $errors['email1'];?></span><?php
+            } else if (!empty($errors['email2'])) {
+                ?><span class="errorMessage"><?= $errors['email2'];?></span><?php
+            }
+            ?>
+
+
+            <label for="motive" class="messageLabel">Objet</label>
+            <input id="motive"
+                   name="motive"
+                   type="text"
+                   placeholder="Ex : J'ai une quête à vous proposer*"
+                   class="messageInput"
+                   value="<?= $_SERVER['REQUEST_METHOD'] === 'POST' ? htmlentities($data['motive']) : '' ;?>">
+            <?php
+            if($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($errors['motive1'])) {
+                ?><span class="errorMessage"><?= $errors['motive1'];?></span><?php
+            }
+            ?>
+
+
+            <label for="textarea" class="messageLabel">Message</label>
+            <textarea name="message"
+                      id="textarea"
+                      placeholder="Votre message"
+                      class="messageInput"><?= $_SERVER['REQUEST_METHOD'] === 'POST' ? htmlentities($data['message']) : '' ;?></textarea>
+            <?php
+            if($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($errors['message1'])) {
+                ?><span class="errorMessage"><?= $errors['message1'];?></span><?php
+            }
+            ?>
+
+
+            <div class="contact-button">
                 <button>Envoyer</button>
             </div>
         </form>
     </div>
 </section>
+
 <footer>
     <div class="footer-div">
         <a>Mentions Légales</a>
