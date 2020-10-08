@@ -26,7 +26,7 @@
     --spacing4: calc(var(--spacing) * 8); ;
     --title-font: 'Eagle Lake', cursive;
     --p-font: 'Roboto', sans-serif;
-    --padding-section: 80px 0;
+    --padding-section: 80px;
 }
 
 html {

@@ -15,25 +15,38 @@
 
 </body>
 </html>
-<aside>
-    <div id="chatbot">
-        <a href="#" class="close-chatbot"><img src="img/close.png" alt="close icon"></a>
-        <h2>Chatbot beta</h2>
-        <div class="chatbot">
-            <h2>Perceval</h2>
-            <div class="perceval-message">
-                <span>Bonjour, je suis Perceval, posez-moi votre question</span>
+<div id="aside-parent">
+    <aside>
+        <div id="chatbot">
+            <div id="chatbot-top">
+                <h2>Chatbot beta v0.9.9.8.2</h2>
+                <a href="#chatbot-top" class="close-chatbot"><img id="close-button" src="img/close.png"
+                                                                  alt="close icon"></a>
             </div>
-            <div id="chatbox"></div>
+            <div class="chatbox-top">
+                <img src="img/perceval_miniature.jpg" alt="miniature chatbot">
+                <h2>Perceval</h2>
+                <div id="online"></div>
+            </div>
+            <div class="chatbot">
+
+                <div class="perceval-message">
+                    <span>Bonjour, je suis Perceval, posez-moi votre question</span>
+                </div>
+                <div id="chatbox"></div>
+                <div id="typing"></div>
+            </div>
+            <div id="chatbox-bottom">
+                <input id="user-phrase" type="text">
+                <button id="chatbot-send">Envoyer</button>
+            </div>
         </div>
-        <div id="chatbox-bottom">
-            <input id="user-phrase" type="text">
-            <button id="chatbot-send">Envoyer</button>
+        <div id="chatbot-button">
+            <a href="#chatbot"><img id="chatbot-dots" src="img/dots.png"><img id="chatbot-miniature"
+                                                                              src="img/perceval_miniature.jpg"
+                                                                              alt="minature chatbot"></a>
         </div>
-    </div>
-    <div id="chatbot-button">
-        <a href="#chatbot"><img id="chatbot-miniature"  src="img/perceval_miniature.jpg" alt="minature chatbot"></a>
-    </div>
-</aside>
+    </aside>
+</div>
 
 

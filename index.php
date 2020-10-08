@@ -24,6 +24,7 @@
     <?php include 'Experience.php'; ?>
     <?php include 'Formation.php'; ?>
     <?php include 'contact.php'; ?>
+    <?php include 'chatbot.php'; ?>
 </main>
 
 </body>
