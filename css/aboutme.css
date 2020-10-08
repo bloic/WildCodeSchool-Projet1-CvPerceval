@@ -1,6 +1,12 @@
 
 .apropos-background-color {
     background-color: var(--second-color);
+    background-image: url(/img/a_propos_background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
 
 html {
