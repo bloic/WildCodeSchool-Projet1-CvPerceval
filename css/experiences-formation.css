@@ -41,8 +41,6 @@
     justify-items: center;
     width: 100px;
     height: 100px;
-    border-radius: 50%;
-    border: solid 4px var(--title-color);
     text-align: center;
     margin-bottom: 0;
     background-color: var(--text-light);
