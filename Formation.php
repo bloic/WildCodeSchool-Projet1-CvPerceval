@@ -29,6 +29,5 @@
                 <p>Master de La technique du Rebrousse-Chemin</p></div>
         </div>
     </div>
-    <br>
 </section>
 <?php
