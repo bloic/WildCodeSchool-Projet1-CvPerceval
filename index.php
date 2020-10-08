@@ -22,6 +22,7 @@
     <?php include 'realisations.php'; ?>
     <?php include 'Experience.php'; ?>
     <?php include 'Formation.php'; ?>
+    <?php include 'Recommandation.php'; ?>
     <?php include 'contact.php'; ?>
 </main>
 
