@@ -24,7 +24,7 @@
                 <p><img src="/img/left_quote-30_30.png">Là, y'a les méduses, les insectes. Là, y'a les glandus, les grouillots. Là, y'a les mecs
                 normaux. Là, y'a les chevaliers. Là, y'a les rois et les princes. Et après, bien au-dessus, y'a le Roi Arthur.
                 Vous, vous aurez eu deux bonhommes dans votre vie, eh ben vous pourrez dire que vous avez tapé dans l'exception.
-                <imgsrc="/img/right_quote_30_30.png"></p>
+                <img src="/img/right_quote_30_30.png"></p>
             </div>
             <div><img src="/img/Karadoc-150x150.jpg" alt="Karadoc" class="imageKaradoc"></div>
         </div>
