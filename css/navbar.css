@@ -41,7 +41,7 @@
     vertical-align: middle;
     margin-left: 20px;
     text-align: center;
-    border: solid 1px var(--text-light);
+    /*border: solid 1px var(--text-light);*/
     background: none;
     color: var(--text-light);
     height: 40px;
@@ -84,6 +84,9 @@
     display: none;
 }
 @media screen and (max-width: 1500px) {
+    #experienceId {
+        display: none;
+    }
     .menu-items a {
         background: var(--second-color);
         padding: 5px 10px;
@@ -93,11 +96,10 @@
         vertical-align: middle;
         margin-left: 20px;
         text-align: center;
-        border: solid 1px var(--text-light);
         background: none;
         color: var(--text-light);
         height: 40px;
-        font-size: 12px;
+        font-size: 18px;
         font-weight: 700;
         border-radius: 5px;
     }
@@ -126,9 +128,6 @@
 }
 
 @media screen and (max-width: 1150px) {
-    #aboutsUsID {
-        display: flex;
-    }
     #formationId {
         display: flex;
     }
@@ -153,7 +152,6 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
-
         min-width: 1%;
         min-height: 1%;
         max-width: 100%;
@@ -192,9 +190,10 @@
     .bouton a {
         font-size: 20px;
         font-family: var(--title-font);
-        min-width: 50vw;
+        min-width: 70vw;
         text-align: center;
         margin-left: 0;
+        border: solid 1px var(--text-light);
     }
 
     .close {
@@ -211,6 +210,7 @@
         border: none;
         margin-left: 0;
         padding-top: 68px;
+        font-size: 12px;
     }
 
     .close a:hover {

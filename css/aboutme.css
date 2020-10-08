@@ -19,10 +19,12 @@ body {
 #apropos {
     margin-top: 0;
     text-align: center;
+    padding: var(--padding-section);
 }
 
 .apropos-flex p {
     max-width: 50%;
+    line-height: 250%;
 }
 
 .apropos-flex p:before {
@@ -36,8 +38,9 @@ body {
     float: right;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     .apropos-flex p {
         min-width: 80%;
+        line-height: 150%;
     }
 }

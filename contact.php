@@ -1,17 +1,15 @@
 <section id="contact-flex">
-    <div>
-        <div id="contact-flex-left">
-            <h2>Contactez-moi</h2>
-            <h3 class="title-light icon-mail"> E-mail</h3>
-            <p class="text-light">provencal@kaamelott.bzh</p>
-            <h3 class="title-light icon-phone"> Pigeon Voyageur </h3>
-            <p class="text-light">06.21.25.44.54</p>
-            <h3 class="title-light icon-home">Adresse</h3>
-            <div id="contact-address">
-                <p class="text-light" id="contact-p">Si vous êtes face à la cathédrale, que le soleil est sur la droite
-                    au-dessus du nuage en forme de miche de pain, c’est que le nord est derrière vous, allez donc au sud
-                    sud-ouest et à 47,3° sur la droite.</p>
-            </div>
+    <div id="contact-flex-left">
+        <h2>Contactez-moi</h2>
+        <h3 class="title-light icon-mail"> E-mail</h3>
+        <p class="text-light">provencal@kaamelott.bzh</p>
+        <h3 class="title-light icon-phone"> Pigeon Voyageur </h3>
+        <p class="text-light">06.21.25.44.54</p>
+        <h3 class="title-light icon-home">Adresse</h3>
+        <div id="contact-address">
+            <p class="text-light" id="contact-p">Si vous êtes face à la cathédrale, que le soleil est sur la droite
+                au-dessus du nuage en forme de miche de pain, c’est que le nord est derrière vous, allez donc au sud
+                sud-ouest et à 47,3° sur la droite.</p>
         </div>
         <div id="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10699.367759358312!2d1.9077365!3d47.9007445!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaa4b8c639629241c!2sLe%20Manoir%20Pub!5e0!3m2!1sfr!2sfr!4v1601562502687!5m2!1sfr!2sfr"
@@ -19,18 +17,19 @@
                     tabindex="0"></iframe>
         </div>
     </div>
+
     <div id="contact-flex-right">
-        <form action="">
+        <form action="message.php" method="post" class="formIndex" novalidate>
             <label for="surname">Nom</label>
-            <input id="surname" name="surname" type="text" placeholder="Arthur Leroi*" required>
+            <input id="surname" name="surname" type="text" class="formInput" placeholder="Arthur Leroi*" required>
             <label for="phone">Pigeon Voyageur</label>
-            <input id="phone" name="phone" type="tel" placeholder="06 69 69 69 69*" required>
+            <input id="phone" name="phone" type="tel" class="formInput" placeholder="06 69 69 69 69*" required>
             <label for="email">E-mail</label>
-            <input id="email" name="email" type="email" placeholder="recruteur2chevalier@hotmail.fr*" required>
+            <input id="email" name="email" type="email" class="formInput" placeholder="recruteur2chevalier@hotmail.fr*" required>
             <label for="motive">Objet</label>
-            <input id="motive" name="motive" type="text" placeholder="J'ai une quête à vous proposer*" required>
+            <input id="motive" name="motive" type="text" class="formInput" placeholder="J'ai une quête à vous proposer*" required>
             <label for="textarea">Message</label>
-            <textarea name="textarea" id="textarea" placeholder="Bonjour, j'ai besoin de vos services..."></textarea>
+            <textarea name="message" id="textarea" class="formInput" placeholder="Bonjour, j'ai besoin d'un grand chevalier..." required></textarea>
             <div id="contact-button">
                 <button>Envoyer</button>
             </div>
