@@ -16,6 +16,7 @@
 
 <body>
 <main>
+
     <?php include 'barNav.php'; ?>
     <?php include 'header.php'; ?>
     <?php include 'a_propos.php'; ?>

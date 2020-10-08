@@ -1,0 +1,129 @@
+.messageTitle {
+    text-align: center;
+    padding: var(--spacing3);
+
+}
+
+.messageTitleContainer{
+    background-color: var(--main-color);
+    background-image: url("../img/texture_header.jpg");
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120% 120%;
+    border-bottom: var(--title-color) 3px solid;
+}
+
+.containerMessage {
+    background-color: var(--second-color);
+}
+
+.backgroundMessage {
+    background-color: var(--second-color);
+    height: 100vh;
+    text-align: center;
+    padding: var(--spacing2);
+}
+
+.formValidation{
+    color: var(--text-light);
+    font-size: 24px;
+
+}
+
+.contact-flex-message{
+    width: 80%;
+    margin: auto;
+}
+
+.errorMessage {
+    color: #a50021;
+    font-family: var(--p-font);
+    display: block;
+    font-weight: bold;
+    margin-top: var(--spacing);
+}
+
+.formMessage {
+    padding: var(--spacing) 0;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.messageLabel {
+    display: block;
+    color: var(--text-light);
+    font-family: var(--title-font);
+    font-size: 18px;
+    margin-bottom: var(--spacing);
+    margin-top: var(--spacing2);
+}
+
+.messageInput{
+    width: 70%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-bottom: solid 2px var(--text-light);
+    height: 40px;
+    color: var(--text-light);
+    border-radius: 5px;
+}
+
+input, select, textarea {
+    padding: 0 8px;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: var(--p-font);
+}
+
+#motive {
+    color: var(--text-light);
+}
+
+#textarea {
+    padding-top: var(--spacing);
+    height: 100px;
+}
+
+form button {
+    min-width: 100px;
+    max-width: 200px;
+    border: solid 2px var(--text-light);
+    background: none;
+    color: var(--text-light);
+    font-family: var(--title-font);
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.contact-button {
+    margin: var(--spacing4) auto;
+}
+
+.backButton {
+    background: var(--main-color);
+    padding: auto;
+    margin : var(--spacing2) var(--spacing3);
+    min-width: 100px;
+    max-width: 200px;
+    font-family: var(--title-font);
+    vertical-align: middle;
+    text-align: center;
+    border: solid 2px var(--text-light);
+    background: none;
+    color: var(--text-light);
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    display:block;
+}
+
+.backButton:hover {
+    background: var(--main-color);
+    color: var(--title-color);
+}

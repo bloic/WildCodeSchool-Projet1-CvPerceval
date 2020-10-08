@@ -65,7 +65,7 @@
     text-align: center;
 }
 
-form {
+.formIndex {
     padding: 70px 0;
 }
 
@@ -76,7 +76,7 @@ label {
     margin-bottom: var(--spacing2);
 }
 
-form input, select, textarea {
+.formInput{
     width: 70%;
     border: none;
     background-color: rgba(0, 0, 0, 0.1);
