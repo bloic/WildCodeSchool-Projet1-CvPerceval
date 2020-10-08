@@ -24,8 +24,9 @@
     align-items: center;
     justify-content: center;
     width: 25%;
-    min-width: 200px;
+    min-width: 250px;
     max-width: 350px;
+    margin: var(--spacing2) var(--spacing2) 0;
 }
 
 .skillIconSwords {
@@ -73,7 +74,6 @@
 .skillIconOld:hover {
     -webkit-transform: rotate(15deg)scale(1);
     transform: rotate(15deg)scale(1);
-
 }
 
 .skillIconSwords:hover {
