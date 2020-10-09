@@ -147,6 +147,7 @@
     margin-top: 0;
     border-bottom-left-radius: var(--spacing);
     border-bottom-right-radius: var(--spacing);
+    font-size: 12pt;
 
 }
 
