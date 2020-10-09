@@ -1,5 +1,11 @@
 /* experience and formation */
-
+#formation {
+    background-image: url(/img/fond_plafond.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .experience {
     background-color: var(--main-color);
