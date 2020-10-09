@@ -16,7 +16,7 @@
     ],
     ['dateQuests'=>'1400 av. JScript',
     'school'=>'Le semi-Croustillant',
-    'quest'=>'Prendre la tête d’un petit groupe hétéroclite d\'hommes',
+    'quest'=>'Prendre la tête d’un petit groupe hétéroclite',
     ]
     ];
 
