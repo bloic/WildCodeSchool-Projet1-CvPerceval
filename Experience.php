@@ -4,7 +4,7 @@
     $dateQuests = [
     ['dateQuests'=>'1400 ANS AVANT JScript',
     'school'=>'Université de Karadoc',
-    'quest'=>'Quêtes des deux Renards',
+    'quest'=>'Quête des deux Renards',
     ],
     ['dateQuests'=>'1400 ANS AVANT JScript',
     'school'=>'Université Le Gallois',
@@ -16,7 +16,7 @@
     ],
     ['dateQuests'=>'1400 ANS AVANT JScript',
     'school'=>'Le semi-Croustillant',
-    'quest'=>'Prendre la tête d’un petit groupe hétéroclited\'homme',
+    'quest'=>'Prendre la tête d’un petit groupe hétéroclite d\'hommes',
     ]
     ];
 
