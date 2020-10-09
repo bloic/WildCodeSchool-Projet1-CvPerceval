@@ -20,16 +20,19 @@ body {
 .apropos-flex {
     display: flex;
     justify-content: center;
+    padding: 10%;
 }
 
 #apropos {
     margin-top: 0;
     text-align: center;
-    padding: var(--padding-section) 10px;
+    padding: var(--padding-section) 16px;
 }
 
 .apropos-flex p {
     line-height: 200%;
+    padding: var(--spacing2);
+    max-width: 90%;
 }
 
 
@@ -37,7 +40,7 @@ body {
     content: "“";
     color: var(--title-color);
     font-size: 100pt;
-    vertical-align: bottom;
+    vertical-align: -100%;
 }
 
 .apropos-flex p:after {
@@ -67,10 +70,10 @@ body {
     }
 
     .apropos-flex p:before {
-        vertical-align: -200%;
+        vertical-align: -175%;
     }
 
     .apropos-flex p:after {
-        vertical-align: -400%;
+        vertical-align: -450%;
     }
 }

@@ -59,6 +59,7 @@ aside h2 {
     bottom: var(--spacing3);
     right: var(--spacing3);
     z-index: 10;
+    max-width: 339px;
 }
 
 #chatbot {

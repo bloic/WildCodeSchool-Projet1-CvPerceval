@@ -13,7 +13,7 @@
             <div class="bouton" id="formationId"><a href=#formation>Formations</a></div>
             <div class="bouton"><a href=#recommandations>Recommandations</a></div>
             <div class="bouton"><a href=#contact-flex>Contact</a></div>
-            <div class="print"><a href="pdf/CV_print.pdf"></a></div>
+            <div class="print"><a href="pdf/CV_print.pdf" target="_blank"></a></div>
             <div class="close"><a href=#iconfen>Retour</a></div>
         </div>
     </div>

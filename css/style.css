@@ -31,6 +31,7 @@
     --font-size: 16pt;
     --padding-section: 80px;
     --line-spacing: 150%;
+
 }
 
 html {
@@ -95,7 +96,9 @@ a {
     text-decoration: none;
 }
 
-
+/*iframe {
+    filter: sepia(50%);
+}*/
 
 
 

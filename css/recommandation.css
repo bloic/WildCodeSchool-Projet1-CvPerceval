@@ -13,7 +13,7 @@
 
 .titleRecommandation {
     text-align: center;
-    margin-top: var(--spacing3);
+    margin-top: 40px;
     margin-bottom: 40px;
 }
 .container {
@@ -34,7 +34,7 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    padding: var(--spacing);
+    padding: var(--spacing3);
     margin-bottom: var(--spacing2);
 }
 
@@ -45,13 +45,13 @@
 }
 
 .recommandationArthur p:before {
-    content: "\‟" ;
+    content: "‟" ;
     color: var(--title-color);
     font-size: 25pt;
 }
 
 .recommandationArthur p:after {
-    content: "\”" ;
+    content: "”" ;
     color: var(--title-color);
     font-size: 25pt;
 }
@@ -68,7 +68,7 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    padding: var(--spacing);
+    padding: var(--spacing3);
     margin-bottom: var(--spacing2);
 }
 
@@ -79,83 +79,13 @@
 }
 
 .recommandationKaradoc p:before {
-    content: "\‟" ;
+    content: "‟" ;
     color: var(--title-color);
     font-size: 25pt;
 }
 
 .recommandationKaradoc p:after {
-    content: "\”" ;
-    color: var(--title-color);
-    font-size: 25pt;
-}
-
-.imageMaitreArme {
-    border-radius: 50%;
-    border: 4px solid var(--title-color);
-    width: 150px;
-    height: 150px;
-    margin-left: var(--spacing);
-}
-
-.maitreArme {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    padding: var(--spacing);
-    margin-bottom: var(--spacing2);
-
-}
-
-.recommandationMaitreArme {
-    margin-left: var(--spacing);
-    width: 60vw;
-    padding-left: 20px;
-}
-
-.recommandationMaitreArme p:before {
-    content: "\‟" ;
-    color: var(--title-color);
-    font-size: 25pt;
-}
-
-.recommandationMaitreArme p:after {
-    content: "\”" ;
-    color: var(--title-color);
-    font-size: 25pt;
-}
-
-.imageAngharad {
-    border-radius: 50%;
-    border: 4px solid var(--title-color);
-    width: 150px;
-    height: 150px;
-    margin-left: var(--spacing);
-}
-
-.angharad {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    padding: var(--spacing);
-    margin-bottom: var(--spacing2);
-
-}
-
-.recommandationAngharad {
-    margin-left: var(--spacing);
-    width: 60vw;
-    padding-right: 20px;
-}
-
-.recommandationAngharad p:before {
-    content: "\‟" ;
-    color: var(--title-color);
-    font-size: 25pt;
-}
-
-.recommandationAngharad p:after {
-    content: "\”" ;
+    content: "”" ;
     color: var(--title-color);
     font-size: 25pt;
 }
@@ -172,7 +102,7 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    padding: var(--spacing);
+    padding: var(--spacing3);
 }
 
 .recommandationLeodagan {
@@ -182,13 +112,13 @@
 }
 
 .recommandationLeodagan p:before {
-    content: "\‟" ;
+    content: "‟" ;
     color: var(--title-color);
     font-size: 25pt;
 }
 
 .recommandationLeodagan p:after {
-    content: "\”" ;
+    content: "”" ;
     color: var(--title-color);
     font-size: 25pt;
 }
@@ -216,28 +146,6 @@
     }
 
     .recommandationKaradoc {
-        width: auto;
-        padding: var(--spacing);
-    }
-
-    .maitreArme {
-        display: flex;
-        flex-wrap: wrap;
-        padding-bottom: var(--spacing3);
-    }
-
-    .recommandationMaitreArme {
-        width: auto;
-        padding: var(--spacing);
-    }
-
-    .angharad {
-        display: flex;
-        flex-wrap: wrap-reverse;
-        padding-bottom: var(--spacing3);
-    }
-
-    .recommandationAngharad {
         width: auto;
         padding: var(--spacing);
     }
