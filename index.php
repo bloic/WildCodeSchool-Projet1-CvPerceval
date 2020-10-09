@@ -10,6 +10,7 @@
     <meta name="description" content="Le CV en ligne de Provençal le Gaulois, aspirant chevalier de la Table Ronde."/>
     <meta name="author" content="Les Petits Pédestres"/>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logoKaamelott.png" />
     <link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap" rel="stylesheet">
     <script src="script/script.js"></script>
 </head>
