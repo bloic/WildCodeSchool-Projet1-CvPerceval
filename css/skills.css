@@ -1,6 +1,11 @@
 
 .skillsSection {
     background-color: var(--main-color);
+    background-image: url("../img/texture_header.jpg");
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120% 120%;
     padding: var(--padding-section) 0;
 }
 
