@@ -31,6 +31,7 @@
 
 #contact-flex-left {
     padding: var(--padding-section) 0 0;
+    margin-bottom: -5px;
     background-color: var(--main-color);
     text-align: center;
     display: flex;
