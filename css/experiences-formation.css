@@ -3,11 +3,13 @@
 
 .experience {
     background-color: var(--main-color);
+    padding-top: var(--padding-section);
     padding-bottom: var(--padding-section);
 }
 
 .formation {
     background-color: var(--second-color);
+    padding-top: var(--padding-section);
     padding-bottom: var(--padding-section);
     margin-left: 0;
     margin-right: 0;
@@ -23,6 +25,7 @@
 
 }
 
+
 .containersDate {
     width: 200px;
     height: 100px;
@@ -36,16 +39,17 @@
 }
 
 .date {
+
+    padding-top: 30px;
     display: flex;
     justify-content: center;
     justify-items: center;
     width: 100px;
     height: 100px;
-    border-radius: 50%;
-    border: solid 4px var(--title-color);
     text-align: center;
     margin-bottom: 0;
-    background-color: var(--text-light);
+    color: var(--text-light);
+    font-size: 16pt;
 }
 
 
@@ -57,8 +61,8 @@
 
 .cadre {
     display: flex;
-    width: 70vw;
     margin-bottom: 0;
+    opacity: 90%;
 }
 
 .historyDate{

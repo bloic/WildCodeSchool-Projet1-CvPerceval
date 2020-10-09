@@ -3,7 +3,15 @@
         <div class="headerBox visitCard">
 
             <div class="headerTitles">
-                <h1 class="headerName"> Perceval le Gallois </h1>
+                <h1 class="headerName">
+                    <?php
+                    $randomNumber = random_int(1,10);
+                    if ($randomNumber <9){
+                        echo 'Perceval le Gallois';
+                    } else {
+                        echo 'Provençal le Gaulois';
+                    } ?>
+                </h1>
                 <h2 class="headerJob"> Chevalier Freelance </h2>
             </div>
 
