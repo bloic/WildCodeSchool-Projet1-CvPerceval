@@ -1,13 +1,12 @@
 
 .skillsSection {
     background-color: var(--main-color);
-    padding: 20px 20px 40px;
+    padding: var(--padding-section) 0;
 }
 
 .skillsMainTitle {
     text-align: center;
-    margin-top: var(--spacing3);
-    margin-bottom: 40px;
+    margin-bottom: var(--spacing3);
 }
 
 .skillContainerGlobal {
@@ -24,7 +23,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 300px;
+    width: 25%;
+    min-width: 250px;
+    max-width: 350px;
+    margin: var(--spacing2) var(--spacing2) 0;
 }
 
 .skillIconSwords {
@@ -72,7 +74,6 @@
 .skillIconOld:hover {
     -webkit-transform: rotate(15deg)scale(1);
     transform: rotate(15deg)scale(1);
-
 }
 
 .skillIconSwords:hover {
