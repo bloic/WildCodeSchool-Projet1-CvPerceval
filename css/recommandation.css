@@ -9,7 +9,6 @@
     color: var(--text-light);
     padding: var(--padding-section) 0;
     line-height: var(--line-spacing);
-    height: calc(100vh - 100px);
 }
 
 .titleRecommandation {
