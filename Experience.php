@@ -2,21 +2,21 @@
     <h2 class="title">Expériences</h2>
     <?php
     $dateQuests = [
-    ['dateQuests'=>'1400 ANS AVANT JScript',
+    ['dateQuests'=>'1400 av. JScript',
     'school'=>'Université de Karadoc',
     'quest'=>'Quête des deux Renards',
     ],
-    ['dateQuests'=>'1400 ANS AVANT JScript',
+    ['dateQuests'=>'1400 av. JScript',
     'school'=>'Université Le Gallois',
     'quest'=>'Pêcheur du serpent géant',
     ],
-    ['dateQuests'=>'1400 ANS AVANT JScript',
+    ['dateQuests'=>'1400 av. JScript',
     'school'=>'Le semi-Croustillant',
     'quest'=>'Proverbiale inventivité',
     ],
-    ['dateQuests'=>'1400 ANS AVANT JScript',
+    ['dateQuests'=>'1400 av. JScript',
     'school'=>'Le semi-Croustillant',
-    'quest'=>'Prendre la tête d’un petit groupe hétéroclite d\'hommes',
+    'quest'=>'Prendre la tête d’un petit groupe hétéroclite',
     ]
     ];
 

@@ -55,13 +55,12 @@
     text-align: center;
     margin-bottom: 0;
     color: var(--text-light);
-    font-size: 16pt;
+    font-size: 14pt;
 }
 
 
 .title {
     text-align: center;
-    margin-top:0;
 }
 
 
@@ -76,6 +75,8 @@
     flex-direction: column;
     justify-content: center;
     justify-items: center;
+    font-family:var(--title-font);
+
 }
 
 .dateQuests{
@@ -83,6 +84,7 @@
     flex-direction: column;
     justify-content: center;
     justify-items: center;
+    font-family:var(--title-font);
 }
 .dateDiploma h3 {
     display: flex;
@@ -102,11 +104,11 @@
     width: 70vw;
     height: 30px;
     background-color: var(--text-light);
-    opacity: 90%;
     border: solid 18px var(--text-light);
     border-bottom-left-radius: var(--spacing);
     border-bottom-right-radius: var(--spacing);
     margin-top: 0;
+
 }
 
 .row {
