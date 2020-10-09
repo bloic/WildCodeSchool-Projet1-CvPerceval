@@ -7,7 +7,7 @@
             'school'=>'Université de Karadoc',
             'diploma'=>'Doctorat de la botte secrète de Karadoc "C\'est pas faux"',
             ],
-            ['historyDate'=>'1400 av. JScript',
+            ['historyDate'=>'1405 av. JScript',
             'school'=>'Université Le Gallois',
             'diploma'=>'Master de la technique du Rebrousse-Chemin',
             ],
@@ -15,8 +15,8 @@
             'school'=>'Stargate',
             'diploma'=>'Testeur de portes dimensionnelles Stargate',
             ],
-            ['historyDate'=>'1400 av. JScript',
-             'school'=>'Université Cul de Chouette',
+            ['historyDate'=>'1410 av. JScript',
+             'school'=>'Lycée Cul de Chouette',
              'diploma'=>'Mention spéciale "Perceval chante le Sloubi"',
 
             ]
